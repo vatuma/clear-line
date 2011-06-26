@@ -1,0 +1,45 @@
+/* left_right_sidebars.css */
+/*
+
+div#wrapper{float:left;width:100%}
+div#content{margin: 0 25%}
+div#navigation{float:left;width:25%;margin-left:-100%}
+div#extra{float:left;width:25%;margin-left:-25%}
+div#footer{clear:left;width:100%}
+*/
+
+	div#wrapper{float:left;width:100%}
+	div#content-wrapper
+	{
+		margin-left: <?php echo $options[$shortname . '_cyan_sidebar_width_value']?><?php echo $options[$shortname . '_cyan_sidebar_width_uom'];?>;
+		margin-right: <?php echo $options[$shortname . '_green_sidebar_width_value'];?><?php echo $options[$shortname . '_green_sidebar_width_uom'];?>;
+	}
+	div#cyan-sidebar
+	{
+		float:left;
+		width: <?php echo $options[$shortname . '_cyan_sidebar_width_value']; ?><?php echo $options[$shortname . '_cyan_sidebar_width_uom'];?>;
+		margin-left:-100%
+	}
+	div#green-sidebar
+	{
+		float:left;
+		width:<?php echo $options[$shortname . '_green_sidebar_width_value']; ?><?php echo $options[$shortname . '_green_sidebar_width_uom'];?>;
+		margin-left:-<?php echo $options[$shortname . '_green_sidebar_width_value']; ?><?php echo $options[$shortname . '_green_sidebar_width_uom'];?>;
+	}
+
+	div#cyan-sidebar .margines,
+	div#green-sidebar .margines
+	{
+		padding:0px 15px 15px 15px;
+	}	
+	div#green-sidebar .column
+	{
+		<?php if ($options[$shortname . '_column_divider'] == 'yes') echo 'border-left: 1px solid '.$options[$shortname . '_dividers_color'].';'?>
+		/*margin-top:18px;*/
+	}
+	div#cyan-sidebar .column
+	{
+		<?php if ($options[$shortname . '_column_divider'] == 'yes') echo 'border-right: 1px solid '.$options[$shortname . '_dividers_color'].';'?>
+		/*margin-top:18px;*/
+	}	
+div#footer{clear:left;width:100%}

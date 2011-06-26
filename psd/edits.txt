@@ -1,0 +1,57 @@
+options_categories.php
+
+<h1>Clear Line Theme Options</h1>
+
+Thank you for using the theme!
+The Clear Line Theme is a clear and very lightweight theme with ample opportunities of customization. As for now the theme contains 104 full-fledged options that consist of 187 sub-options. Here are some tips that can help you to understend them better.
+
+ - "change opportunities of customization" to "opportunities for customization"
+- "understend" is mis-spelled, should be "understand"
+
+
+
+
+
+option_descriptions.php
+
+The word "Appearence" occurs 3 times in this file, should be spelled "Appearance".
+
+
+In this section:
+
+$shortname . '_comments_avatar_size' => array(
+		'title' => __('Avatar size in coomments', THEME_DOMAIN),
+		'desc' => __('Avatar size in coomments (in pixels)', THEME_DOMAIN),
+
+ - "coomments" is mis-spelled, should be "comments".
+
+
+
+
+In this section:
+
+$shortname . '_commentator_link_color' => array(
+		'title' => __('Color of links to commentator websites', THEME_DOMAIN),
+
+ - "commentator" should be changed to "commenter". This is not a mis-spelling, and is technically correct, but "commenter" is much more widely used.
+
+
+
+
+
+
+In this section:
+
+'desc' => __('Regular and hovered colors of link to comments authors websites', THEME_DOMAIN),
+	),
+	$shortname . '_post_author_link_color' => array(
+		'title' => __('Post Author Link Color', THEME_DOMAIN),
+		'desc' => __('Color of link to the website of the post author', THEME_DOMAIN),
+
+- I am sure "comments authors websites" is wrong, and I *think* it should be "comment's author's websites", but I am not certain, that is a difficult area of the English language. I suggest you change it to "website of the post author", as you wrote in the second 'desc'. The phrase "comments authors websites" is used at least twice in the file.
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+/*   
+Theme Name: Clear Line
+Theme URI: http://vatuma.com/wordpress-themes/clear-line
+Description: Clear Line is the clear and very lightweight theme. It's  also highly customizable. Fixed or flexible width, 8 sidebar layouts, columnar posts displaying, 14 widget areas, advanced options page with option inheritance and tons of options, helpful 404 error page, SEO-optimized markup. It natively supports SEO and pagination plugins and WordPress3 features: header images, menus, backgrounds, post thumbnails etc. WordPress 3+ is required. Changelog - http://vatuma.com/wordpress-themes/clear-line/change-log
+Author: Ivan Milaev
+Author URI: http://vatuma.com
+Version: 1.0
+Tags: custom-header, theme-options, fixed-width, flexible-width, threaded-comments, two-columns, white, light
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#pagenavi .newer a{
+
+	float:left;
+	height:16px;
+	line-height:16px;
+	padding-left:22px;
+	
+}
+#pagenavi .older a {
+
+	float:right;
+	height:16px;
+	line-height:16px;
+	padding-right:22px;
+}
+
+	/* External links
+a[href^="http://"]:not([href*="site.ru"])::after {
+    content: "\2197";
+}*/
+
+
+/*
+	POST
+*/
+.clear { clear: both;}
+
+.post .content .under {
+	line-height:16px;
+}
+.post .content .under span {
+	float:left;
+	margin-right:15px;
+}
+p 
+{
+	margin: 10px 0 10px 0;
+}
+
+.post ul
+{
+	padding: 0;
+	margin: 5px 0 5px 0;
+}
+.post ul li
+{
+	list-style:square;
+	margin:0 0 0 30px;
+	padding: 0;
+}
+
+dt {
+	font-weight:bold;
+}
+dd {
+	margin:2px 0 2px 10px;
+}
+
+li 
+{
+	margin-left:30px;
+}
+
+
+#designcopy 
+{
+	width: 170px;
+	font-size:12px;
+}
+#footeraddress 
+{
+	font-size: 18px;
+}
+#footerphone
+{
+	font-size: 18px;
+}
+#footerphone .tel
+{
+	float:left;
+	margin:3px 10px 0 0;
+}
+#footerphone .code
+{
+	font-size: 12px;
+	margin-top:0px;
+	float:left;
+}
+#footerphone .number
+{
+	font-size: 28px;
+	margin-top:-7px;
+	float:left;
+}
+#designcopy a,#designcopy a:hover,#designcopy a:visited
+{
+	text-decoration:none;
+	color: #505050;
+}
+#bottomlink a:visited img, 
+#bottomlink a img 
+{
+	opacity:0.3;
+	filter:alpha(opacity=30);
+}
+#bottomlink a:hover img 
+{
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+/* ALIGN */
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.alignleft {
+   float: left;
+  margin-right:7px;
+}
+
+.alignright {
+   float: right;
+  margin-left:7px;
+}
+/*
+	required styles
+	Please see options/css.php for real definition of the styles
+*/
+.wp-caption,
+.wp-caption-text,
+.gallery-caption,
+.bypostauthor,
+.sticky
+{}
+
+#commentform .comment-form-comment label
+{
+	display:block;
+}
+.form-allowed-tags
+{
+	padding: 0 20px 0 0;
+}
+#cyan-sidebar
+{
+	overflow:hidden;
+}
+.archive-meta {
+	padding: 5px 10px;
+}
+.post a.special
+{
+	color:#ee0000;
+	text-decoration:none;
+}
+.post a.special:visited
+{
+	color:#ee0000;
+	text-decoration:none;
+}
+.post a.special:hover
+{
+	color:#000000;
+	text-decoration:underline;
+}

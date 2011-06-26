@@ -1,0 +1,56 @@
+/* 4_left_sidebars.css */
+	div#wrapper
+	{
+		float:right;
+		width:100%;
+		margin-left: -<?php echo $options[$shortname . '_orange_sidebar_width_value'];?><?php echo $options[$shortname . '_orange_sidebar_width_uom'];?>;
+	}
+	div#content-wrapper
+	{
+		margin-left: <?php echo $options[$shortname . '_orange_sidebar_width_value']; ?><?php echo $options[$shortname . '_orange_sidebar_width_uom'];?>;
+	}
+	div#sidebar
+	{
+		float:left;
+		width: <?php echo $options[$shortname . '_orange_sidebar_width_value']; ?><?php echo $options[$shortname . '_orange_sidebar_width_uom'];?>;
+	}
+	
+	div#orange-sidebar
+	{
+		width: 100%
+	}
+	div#cyan-sidebar
+	{
+		float:left;
+		width: 50%;
+		overflow:hidden;
+	}
+	div#green-sidebar
+	{
+		float:left;
+		width: 50%
+	}
+	div#red-sidebar
+	{
+		clear:left;
+		width: 100%
+	}
+	div#green-sidebar .margines,
+	
+	div#orange-sidebar .margines,
+	div#cyan-sidebar .margines,
+	div#green-sidebar .margines,
+	div#red-sidebar .margines
+	{
+		padding:0px 15px 0px 15px;
+		margin-bottom: 10px;
+	}
+	#sidebar .column
+	{
+		<?php if ($options[$shortname . '_column_divider'] == 'yes') echo 'border-right: 1px solid '.$options[$shortname . '_dividers_color'].';'?>
+		margin-top:18px;
+	}
+	#orange-sidebar  .sidebar-content
+	{
+		padding-top:1px;
+	}

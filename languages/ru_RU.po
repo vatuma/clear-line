@@ -1,0 +1,1694 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Clear Line 0.6.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/clear-line\n"
+"POT-Creation-Date: 2010-11-25 15:29+0300\n"
+"PO-Revision-Date: 2010-11-27 22:10+0300\n"
+"Last-Translator: Ivan Milyaev <vatuma@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: Z:/home/wp/www/wp-content/themes/clear-line\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:4
+#@ clear-line
+msgid "page not found"
+msgstr "страница не найдена"
+
+#: 404.php:5
+#@ clear-line
+msgid "The page you are looking for is not here"
+msgstr "Страницы, которую вы ищете тут нет"
+
+#: 404.php:7
+#@ clear-line
+msgid "Here are some ways to find what you are looking for"
+msgstr "Вот несколько путей найти то, что вы ищете"
+
+#: 404.php:11
+#@ clear-line
+msgid "<b>Search</b> the site"
+msgstr "<b>Найти</b> на сайте"
+
+#: 404.php:13
+#@ clear-line
+msgid "Search"
+msgstr "Найти"
+
+#: 404.php:18
+#@ clear-line
+msgid "<b>Browse</b>  categories, pages, tags"
+msgstr "<b>Посмотреть</b>  рубрики, страницы, теги"
+
+#: 404.php:21
+#@ clear-line
+msgid "Categories"
+msgstr "Рубрики"
+
+#: 404.php:29
+#@ clear-line
+msgid "Pages"
+msgstr "Страницы"
+
+#: 404.php:38
+#: single.php:40
+#@ clear-line
+#@ default
+msgid "Tags"
+msgstr "Теги"
+
+#: 404.php:45
+#@ clear-line
+msgid "No! I'd better read something else!"
+msgstr "Нет-нет! Я лучше почитаю что-нибудь другое!"
+
+#: 404.php:48
+#@ clear-line
+msgid "Read recent posts"
+msgstr "Читать последние записи"
+
+#: archive.php:12
+#, php-format
+#@ clear-line
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Архив дня: <span>%s</span>"
+
+#: archive.php:14
+#, php-format
+#@ clear-line
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Архив месяца: <span>%s</span>"
+
+#: archive.php:16
+#, php-format
+#@ clear-line
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Архив года: <span>%s</span>"
+
+#: archive.php:18
+#, php-format
+#@ clear-line
+msgid "Posts Tagged by <span>%s</span>"
+msgstr "Записи с меткой <span>%s</span>"
+
+#: archive.php:23
+#@ clear-line
+msgid "Blog Archives"
+msgstr "Архив блога"
+
+#: archive.php:40
+#: author.php:49
+#: category.php:23
+#: functions.php:635
+#: page.php:13
+#: pg-tpl-1-left-sidebar.php:16
+#: pg-tpl-1-right-sidebar.php:16
+#: pg-tpl-2-left-sidebars.php:16
+#: pg-tpl-2-right-sidebars.php:16
+#: pg-tpl-4-left-sidebars.php:16
+#: pg-tpl-4-right-sidebars.php:16
+#: pg-tpl-left-right-sidebars.php:16
+#: pg-tpl-no-sidebars.php:16
+#@ default
+msgid "(more...)"
+msgstr "(дальше...)"
+
+#: archive.php:48
+#: author.php:54
+#: category.php:28
+#: search.php:18
+#: single.php:60
+#@ default
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: archive.php:66
+#: author.php:72
+#: category.php:46
+#: index.php:88
+#: search.php:36
+#@ default
+msgid "&laquo; Previous Page"
+msgstr ""
+
+#: archive.php:66
+#: author.php:72
+#: category.php:46
+#: index.php:88
+#: search.php:36
+#@ default
+msgid "Next Page &raquo;"
+msgstr ""
+
+#: author.php:13
+#, php-format
+#@ clear-line
+msgid "Author: %s"
+msgstr "Автор: <span>%s</span>"
+
+#: author.php:23
+#, php-format
+#@ clear-line
+msgid "About %s"
+msgstr "О %s"
+
+#: comments.php:9
+#@ default
+msgid "Name"
+msgstr ""
+
+#: comments.php:13
+#@ default
+msgid "Email"
+msgstr ""
+
+#: comments.php:17
+#@ default
+msgid "Website"
+msgstr ""
+
+#: comments.php:24
+#@ default
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: comments.php:36
+#@ clear-line
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Эта запись защищена паролем. Введите пароль, чтобы увдиеть комментарии"
+
+#: comments.php:53
+#, php-format
+#@ clear-line
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "Один комментарий к %2$s"
+msgstr[1] "%1$s Комментария к %2$s"
+msgstr[2] "%1$s Комментариев к %2$s"
+
+#: comments.php:90
+#@ clear-line
+msgid "Comments are closed."
+msgstr "Комментарии закрыты"
+
+#: footer.php:13
+#@ default
+msgid "Recent Posts"
+msgstr "Свежие записи"
+
+#: functions-core.php:130
+#@ clear-line
+msgid "select one"
+msgstr "выберете..."
+
+#: functions-core.php:132
+#@ clear-line
+msgid "All Categories"
+msgstr "Все категории"
+
+#: functions.php:150
+#@ default
+msgid "Permanent link to the comment"
+msgstr ""
+
+#: functions.php:150
+#, php-format
+#@ default
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:150
+#@ default
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:155
+#@ default
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:349
+#@ clear-line
+msgid "Posted by"
+msgstr "Разместил"
+
+#: functions.php:351
+#@ clear-line
+msgid "under"
+msgstr "в"
+
+#: functions.php:353
+#@ clear-line
+msgid "Filled under"
+msgstr "Размещено в"
+
+#: functions.php:365
+#@ default
+msgid "No Comments"
+msgstr ""
+
+#: functions.php:365
+#@ default
+msgid "1 Comment"
+msgstr ""
+
+#: functions.php:365
+#@ default
+msgid "% Comments"
+msgstr ""
+
+#: functions.php:367
+#@ clear-line
+msgid "Comments off"
+msgstr "Комментарии закрыты"
+
+#: functions.php:369
+#@ default
+msgid "Edit This"
+msgstr ""
+
+#: layouts/2_left_sidebars.php:31
+#: layouts/2_right_sidebars.php:31
+#: layouts/4_left_sidebars.php:21
+#: layouts/4_right_sidebars.php:21
+#: layouts/left_right_sidebars.php:31
+#: layouts/left_sidebar.php:18
+#: layouts/right_sidebar.php:18
+#: layouts/right_sidebar.php:28
+#@ clear-line
+msgid "Share This"
+msgstr "Поделись"
+
+#: options/admin.options.php:1261
+#: options/admin.options.php:1300
+#: options/admin.options.php:1317
+#: options/admin.options.php:1335
+#@ default
+msgid "Show"
+msgstr ""
+
+#: options/option_descriptions.php:5
+#@ clear-line
+msgid "Show Demo Data in Sidebars"
+msgstr "Показывать демо-данные в сайдбарах"
+
+#: options/option_descriptions.php:6
+#@ clear-line
+msgid "Show or not demo data in sidebars if there were no widgets added"
+msgstr "Показывать или нет демо-дату в сайдбарах, если в них не добавлено ни одного виджета"
+
+#: options/option_descriptions.php:9
+#@ clear-line
+msgid "Sidebars on index page"
+msgstr "Боковые панели на главной странице"
+
+#: options/option_descriptions.php:10
+#@ clear-line
+msgid "Select what sidebars must be displayed on index page. Every sidebar has the name same as its color. So there are folowing sidebars: Cyan, Green, Blue, Orange, Red"
+msgstr "Выберете, какие боковые панели будут отображены на главной странице. Каждая боковая панель называется по её цвету. Т.е. они называются следующим образом: голубая (Cyan), зелёная (Green), синяя (Blue), оранжевая (Orange), красная (Red)"
+
+#: options/option_descriptions.php:13
+#@ clear-line
+msgid "Sidebars on single page"
+msgstr "Боковые панели на странице"
+
+#: options/option_descriptions.php:17
+#@ clear-line
+msgid "Sidebars on single post"
+msgstr "Боковые панели на странице записи"
+
+#: options/option_descriptions.php:18
+#@ clear-line
+msgid "Select what sidebars must be displayed on a single post page."
+msgstr "Выберете, какие боковые панели будут отображены при просмотре одной записи"
+
+#: options/option_descriptions.php:21
+#@ clear-line
+msgid "Sidebars on category pages"
+msgstr "Боковые панели на странице категорий"
+
+#: options/option_descriptions.php:22
+#@ clear-line
+msgid "Select what sidebars must be displayed on a category page."
+msgstr "Выберете, какие боковые панели будут отображены на странице категорий"
+
+#: options/option_descriptions.php:25
+#@ clear-line
+msgid "Sidebars on tag pages"
+msgstr "Боковые панели на странице метки"
+
+#: options/option_descriptions.php:26
+#@ clear-line
+msgid "Select what sidebars must be displayed on a tag page"
+msgstr "Выберете, какие боковые панели будут отображены на странице метки"
+
+#: options/option_descriptions.php:29
+#@ clear-line
+msgid "Sidebars on archive pages"
+msgstr "Боковые панели на странице архива"
+
+#: options/option_descriptions.php:30
+#@ clear-line
+msgid "Select what sidebars must be displayed on an archive page"
+msgstr "Выберете, какие боковые панели будут отображены на странице архива"
+
+#: options/option_descriptions.php:33
+#@ clear-line
+msgid "Sidebars on search results pages"
+msgstr "Боковые панели при поиске"
+
+#: options/option_descriptions.php:34
+#@ clear-line
+msgid "Select what sidebars must be displayed on a search results page"
+msgstr "Выберете, какие боковые панели будут отображены на странице результатов поиска"
+
+#: options/option_descriptions.php:37
+#@ clear-line
+msgid "Sidebars on \"Error 404 - Not Found\" pages"
+msgstr "Боковые панели на странице \"404 - страница не найдена\""
+
+#: options/option_descriptions.php:38
+#@ clear-line
+msgid "Select what sidebars must be displayed on an error page"
+msgstr "Выберете, какие боковые панели будут отображены на странице ошибки \"404 - страница не найдена\""
+
+#: options/option_descriptions.php:41
+#@ clear-line
+msgid "Sidebars on other pages"
+msgstr "Боковые панели на других страницах"
+
+#: options/option_descriptions.php:42
+#@ clear-line
+msgid "This layout will be applied for all other pages not listed in options above. E.g. this layout will be applied to custom taxonomy pages"
+msgstr "Эта разметка будет применена ко всем другим типам страниц, которые не перечислены выше. Например, выбранные здесь боковые панели будут отображены на страницах пользовательской таксономии"
+
+#: options/option_descriptions.php:45
+#@ clear-line
+msgid "Whole Page Width"
+msgstr "Ширина всей страницы"
+
+#: options/option_descriptions.php:46
+#@ clear-line
+msgid "The Width of the entire page including sidebars. Enter a number and select a unit of measure."
+msgstr "Ширина всей страницы, включая боковые панели"
+
+#: options/option_descriptions.php:49
+#@ clear-line
+msgid "Blue Sidebar Width"
+msgstr "Ширина синей боковой панели"
+
+#: options/option_descriptions.php:50
+#@ clear-line
+msgid "Width of the Blue sidebar and its unit of measure"
+msgstr "Ширина синей боковой панели"
+
+#: options/option_descriptions.php:53
+#@ clear-line
+msgid "Cyan Sidebar Width"
+msgstr "Ширина голубой боковой панели"
+
+#: options/option_descriptions.php:54
+#@ clear-line
+msgid "Width of the Cyan sidebar and its unit of measure"
+msgstr "Ширина голубой боковой панели"
+
+#: options/option_descriptions.php:57
+#@ clear-line
+msgid "Green Sidebar Width"
+msgstr "Ширина зелёной боковой панели"
+
+#: options/option_descriptions.php:58
+#@ clear-line
+msgid "Width of the Green sidebar and its unit of measure"
+msgstr "Ширина зелёной боковой панели"
+
+#: options/option_descriptions.php:61
+#@ clear-line
+msgid "Orange Sidebar Width"
+msgstr "Ширина оранжевой боковой панели"
+
+#: options/option_descriptions.php:62
+#@ clear-line
+msgid "Width of the Orange sidebar and its unit of measure.<br/>Please note that if you selected 4-sidebar layout the width will override the widths of cyan and green sidebars."
+msgstr "Ширина оранжевой боковой панели.<br/>Обратите внимание, что при выборе разметки с 4-мя боковыми панелями, ширина оранжевой панели переопределяет ширины голубой и зеленой панели."
+
+#: options/option_descriptions.php:65
+#@ clear-line
+msgid "Sidebar Font"
+msgstr "Шрифт в боковых панелях"
+
+#: options/option_descriptions.php:66
+#@ clear-line
+msgid "The font of common text in the sidebars"
+msgstr "Шрифт обычного текста в боковых панелях"
+
+#: options/option_descriptions.php:69
+#@ clear-line
+msgid "Sidebar Link Color"
+msgstr "Цвет ссылок в боковых панелях"
+
+#: options/option_descriptions.php:70
+#@ clear-line
+msgid "Color of links in the sidebars: regular and hovered"
+msgstr "Цвет ссылок в боковых панелях: обычная и при наведении мышки."
+
+#: options/option_descriptions.php:73
+#@ clear-line
+msgid "Blogroll Link Description Color"
+msgstr "Цвет описания избранных ссылок"
+
+#: options/option_descriptions.php:74
+#@ clear-line
+msgid "Color of link's descriptions in a Blogroll widget"
+msgstr "Цвет описания ссылок в виджете \"Ссылки\""
+
+#: options/option_descriptions.php:77
+#@ clear-line
+msgid "Column Divider"
+msgstr "Разделитель колонок"
+
+#: options/option_descriptions.php:78
+#@ clear-line
+msgid "Define whether to show column (sidebars) divider or not. Selecting \"yes\" will separate sidebars and main content"
+msgstr "Показывать или нет разделитель колонок (боковых панелей). Если выбрать ДА, боковые панели будут отделены линией от основного содержимого блога."
+
+#: options/option_descriptions.php:81
+#@ clear-line
+msgid "Sidebar Headings Font"
+msgstr "Шрифт заголовков в боковых панелях"
+
+#: options/option_descriptions.php:82
+#@ clear-line
+msgid "The font of headings in the sidebars"
+msgstr "Шрифт заголовков в боковых панелях"
+
+#: options/option_descriptions.php:85
+#@ clear-line
+msgid "Calendar Widget Font"
+msgstr "Шрифт виджета \"Календарь\""
+
+#: options/option_descriptions.php:86
+#@ clear-line
+msgid "The font of text in a Calendar Widget"
+msgstr "Шрифт виджета \"Календарь\""
+
+#: options/option_descriptions.php:89
+#@ clear-line
+msgid "Calendar Days of Week color"
+msgstr "Цвет дней недели в календаре"
+
+#: options/option_descriptions.php:90
+#@ clear-line
+msgid "The color of Day of Week in Calendar Widget: text color and background color"
+msgstr "Цвет дней недели в календаре: цвет текста и фона"
+
+#: options/option_descriptions.php:93
+#@ clear-line
+msgid "Calendar Today Highlighting"
+msgstr "Выделение текущей даты в календаре"
+
+#: options/option_descriptions.php:94
+#@ clear-line
+msgid "Background color of current date and its border style and color in a Calendar Widget"
+msgstr "Цвет фона и стиль границы текущей даты в виджете \"Календарь\""
+
+#: options/option_descriptions.php:97
+#@ clear-line
+msgid "Show Demo Data in the Footer"
+msgstr "Показывать демо-данные в футере"
+
+#: options/option_descriptions.php:98
+#@ clear-line
+msgid "Show or not demo data in footer columns if there were no widgets added"
+msgstr "Показывать или нет демонстрационные данные в футере, если туда не были добавлены виджеты"
+
+#: options/option_descriptions.php:101
+#@ clear-line
+msgid "Columns in The Footer"
+msgstr "Колонок в футере"
+
+#: options/option_descriptions.php:102
+#@ clear-line
+msgid "Every column in the footer is a widget area. Their names are Blue, Green, Orange and Red Footer. You can add widgets on Appearance -> Widgets page"
+msgstr "Каждая колонка в футере - зона для добавления виджетов. Названия этих зон: синий, зелёный, оранжевый и красный футер. Вы можете добавить виджет на странице Внешний вид -> Виджеты"
+
+#: options/option_descriptions.php:105
+#@ clear-line
+msgid "Equal Footer Columns"
+msgstr "Выровнять колонки футера"
+
+#: options/option_descriptions.php:106
+#@ clear-line
+msgid "Note that if you select YES, the followng options do not affect the appearance"
+msgstr "Если выбрать ДА, то следующие дальше опции не будут влиять на отображение"
+
+#: options/option_descriptions.php:109
+#@ clear-line
+msgid "Blue Footer Column Width"
+msgstr "Ширина синего футера"
+
+#: options/option_descriptions.php:110
+#: options/option_descriptions.php:114
+#: options/option_descriptions.php:118
+#: options/option_descriptions.php:122
+#@ clear-line
+msgid "Enter a number and select a unit of measure"
+msgstr "Ширина синего футера"
+
+#: options/option_descriptions.php:113
+#@ clear-line
+msgid "Green Footer Column Width"
+msgstr "Ширина зелёного футера"
+
+#: options/option_descriptions.php:117
+#@ clear-line
+msgid "Orange Footer Column Width"
+msgstr "Ширина зелёного футера"
+
+#: options/option_descriptions.php:121
+#@ clear-line
+msgid "Red Footer Column Width"
+msgstr "Ширина красного футера"
+
+#: options/option_descriptions.php:125
+#@ clear-line
+msgid "Footer Background Color"
+msgstr "Цвет фона футера"
+
+#: options/option_descriptions.php:126
+#@ clear-line
+msgid "Background color of the footer"
+msgstr "Цвет фона футера"
+
+#: options/option_descriptions.php:129
+#@ clear-line
+msgid "Text Font"
+msgstr "Шрифт текста"
+
+#: options/option_descriptions.php:130
+#@ clear-line
+msgid "The general font of the site text"
+msgstr "Шрифт обычного текста на сайте"
+
+#: options/option_descriptions.php:133
+#@ clear-line
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: options/option_descriptions.php:134
+#@ clear-line
+msgid "Body text color"
+msgstr "Цвет обычного текста"
+
+#: options/option_descriptions.php:137
+#@ clear-line
+msgid "Body Background Color"
+msgstr "Общий цвет фона"
+
+#: options/option_descriptions.php:138
+#@ clear-line
+msgid "This is the background color of the entire web page"
+msgstr "Цвет фона всей страницы, включая область за границами содержимого и боковых панелей"
+
+#: options/option_descriptions.php:141
+#@ clear-line
+msgid "Content Background Color"
+msgstr "Цвет фона содержимого"
+
+#: options/option_descriptions.php:142
+#@ clear-line
+msgid "This is the background color of content part of the web page"
+msgstr "Цвет фона той части страницы, на которой располагается содержимое и боковые панели"
+
+#: options/option_descriptions.php:145
+#@ clear-line
+msgid "Base Color"
+msgstr "Базовый цвет"
+
+#: options/option_descriptions.php:146
+#@ clear-line
+msgid "Base Color of lines like menu and footer borders"
+msgstr "Базовый цвет задает цветовую гамму сайта. Этот цвет определяет такие элементы, как цвет границ меню и футера, цвет заголовка блога в шапке"
+
+#: options/option_descriptions.php:149
+#@ clear-line
+msgid "Show Blog Title And Description"
+msgstr "Показывать заголовок блога и описание"
+
+#: options/option_descriptions.php:150
+#@ clear-line
+msgid "You might want to hide the blog title and description when using full-width header image. Please note that the folowing option \"header font size\" is still meaningful - in this case it means header height"
+msgstr "Показывать или нет заголовок блога и описание в шапке блога. Вы можете захотеть скрыть их при использовании в шапке картинки по всей ширине. Обратите внимание, что при скрытии, следующая ниже опция \"Размер шрифта заголовка в шапке\" всё равно имеет смысл - она означает высоту шапки."
+
+#: options/option_descriptions.php:153
+#@ clear-line
+msgid "Header Font"
+msgstr "Шрифт в шапке"
+
+#: options/option_descriptions.php:154
+#@ clear-line
+msgid "This font is used to display the blog title"
+msgstr "Шрифт, которым отображается заголовк блога"
+
+#: options/option_descriptions.php:157
+#@ clear-line
+msgid "Header Description Font"
+msgstr "Шрифт описания в шапке"
+
+#: options/option_descriptions.php:158
+#@ clear-line
+msgid "This font is used to display the blog description under the blog title"
+msgstr "Шрифт, используемый для описания блока в шапке сайта под заголовком блога"
+
+#: options/option_descriptions.php:161
+#@ clear-line
+msgid "Header Title Left Padding"
+msgstr "Отступ заголовка в шапке"
+
+#: options/option_descriptions.php:162
+#@ clear-line
+msgid "If you want to place an image before (to the left of) the blog title, set the value to the width of the image. E.g. if your image width is 100px set the value to 100."
+msgstr "Если вы хотите вставить картинку слева от заголовка блога, установите это значение равным ширине картинки."
+
+#: options/option_descriptions.php:173
+#@ clear-line
+msgid "Header Image Size"
+msgstr "Размер картинки в шапке"
+
+#: options/option_descriptions.php:177
+#@ clear-line
+msgid "Header Background Position CSS"
+msgstr "CSS положения картинки в шапке"
+
+#: options/option_descriptions.php:178
+#@ clear-line
+msgid "You can select a header image at Appearance -> Header. The image  will be placed according to this option. The option value will be placed right after \"<a href=\"http://www.w3schools.com/css/pr_background-position.asp\">background-position</a>:\" in #header css. To place the image to the left of your blog title, set the value to \"left bottom\"."
+msgstr "Вы можете выбрать картинку в меню Внешний вид -> Заголовок. Расположение картинки задается в этой опции. Её значение будет помещено сразу после \"<a href=\"http://www.w3schools.com/css/pr_background-position.asp\">background-position</a>:\" в  css шапки."
+
+#: options/option_descriptions.php:181
+#@ clear-line
+msgid "Header Background Color"
+msgstr "Цвет фона шапки"
+
+#: options/option_descriptions.php:182
+#@ clear-line
+msgid "This is the background color of header of the web page (where blog title and description placed)"
+msgstr "Цвет фона шапки (в которой расоположен заголовок блога и его описание)"
+
+#: options/option_descriptions.php:189
+#@ clear-line
+msgid "Top Menu Font"
+msgstr "Шрифт верхнего меню"
+
+#: options/option_descriptions.php:190
+#@ clear-line
+msgid "The font of top menu"
+msgstr "Шрифт верхнего меню"
+
+#: options/option_descriptions.php:193
+#@ clear-line
+msgid "Top Menu Height"
+msgstr "Высота верхнего меню"
+
+#: options/option_descriptions.php:197
+#@ clear-line
+msgid "Top Menu Font Color"
+msgstr "Цвет ссылок верхнего меню"
+
+#: options/option_descriptions.php:198
+#@ clear-line
+msgid "Top Menu Text Color: regular and hovered"
+msgstr "Цвет ссылок верхнего меню: обычных и при наведении мышки"
+
+#: options/option_descriptions.php:205
+#@ clear-line
+msgid "Breadcrumbs Font"
+msgstr "Шрифт пути до записи"
+
+#: options/option_descriptions.php:206
+#@ clear-line
+msgid "Breadcrumbs is the navigation path to a current post. Select font to use for this."
+msgstr "Шрифт пути до текущей записи, отображаемы выше заголовка записи"
+
+#: options/option_descriptions.php:213
+#@ clear-line
+msgid "Top Menu Background Color"
+msgstr "Цвет фона верхнего меню"
+
+#: options/option_descriptions.php:214
+#@ clear-line
+msgid "Background color of the top menu"
+msgstr "Цвет фона верхнего меню"
+
+#: options/option_descriptions.php:217
+#@ clear-line
+msgid "Top Menu Current Item Color"
+msgstr "Цвет текущего пункта меню"
+
+#: options/option_descriptions.php:218
+#@ clear-line
+msgid "Text and Background color of current item of the Top menu"
+msgstr "Цвет текста и фона текущего пункта меню, показывающее текущее местонахождение пользоватля."
+
+#: options/option_descriptions.php:221
+#@ clear-line
+msgid "Top Submenu Font"
+msgstr "Шрифт верхнего подменю"
+
+#: options/option_descriptions.php:222
+#@ clear-line
+msgid "The Font of submenu items"
+msgstr "Шрифт в подменю"
+
+#: options/option_descriptions.php:225
+#@ clear-line
+msgid "Width of Top Menu Submenus"
+msgstr "Ширина подменю"
+
+#: options/option_descriptions.php:226
+#@ clear-line
+msgid "Width of the top submenus in pixels"
+msgstr "Ширина подменю в пикселях"
+
+#: options/option_descriptions.php:209
+#@ clear-line
+msgid "Breadcrumbs Color"
+msgstr "Цвет пути до записи"
+
+#: options/option_descriptions.php:210
+#@ clear-line
+msgid "Color of Breadcrumbs (navigation path)"
+msgstr "Цвет пути до записи (навигационный путь)"
+
+#: options/option_descriptions.php:229
+#@ clear-line
+msgid "Headings Font"
+msgstr "Шрифт заголовков"
+
+#: options/option_descriptions.php:230
+#@ clear-line
+msgid "Headings font is used to dispalay headings on single post/page (<code>&lt;h1&gt;</code> tag) and on post list pages (<code>&lt;h2&gt;</code> tag)"
+msgstr "Шрифт заголовков используется для отображения заголовков записей и страниц при просмотре конкретных страниц (<code>&lt;h1&gt;</code> tag) и на странице со списком записей (<code>&lt;h2&gt;</code> tag)"
+
+#: options/option_descriptions.php:233
+#@ clear-line
+msgid "Headings Color"
+msgstr "Цвет заголовков"
+
+#: options/option_descriptions.php:234
+#@ clear-line
+msgid "Headings color"
+msgstr "Цвет заголовков"
+
+#: options/option_descriptions.php:237
+#@ clear-line
+msgid "Headings Hover Color"
+msgstr "Цвет заголовков при наведении"
+
+#: options/option_descriptions.php:238
+#@ clear-line
+msgid "Hovered headings color"
+msgstr "Цвет заголовков при наведении указателя мышки"
+
+#: options/option_descriptions.php:241
+#@ clear-line
+msgid "H2 Headings Font"
+msgstr "Шрифт заголовка H2"
+
+#: options/option_descriptions.php:245
+#@ clear-line
+msgid "H2 Headings Color"
+msgstr "Цвет заголовка H2"
+
+#: options/option_descriptions.php:246
+#@ clear-line
+msgid "H2 Headings Color is used on single post/page (<code>&lt;h2&gt;</code> tag)"
+msgstr "Цвет заголовка H2 используется при просмотре конкретной страницы (тег <code>&lt;h2&gt;</code>)"
+
+#: options/option_descriptions.php:249
+#@ clear-line
+msgid "H3 Headings Font"
+msgstr "Шрифт заголовка H3"
+
+#: options/option_descriptions.php:253
+#@ clear-line
+msgid "H3 Headings Color"
+msgstr "Цвет заголовка H3"
+
+#: options/option_descriptions.php:254
+#@ clear-line
+msgid "H3 Headings Color is used on single post/page (<code>&lt;h3&gt;</code> tag)"
+msgstr "Цвет заголовка H3 используется при просмотре конкретной страницы (тег <code>&lt;h3&gt;</code>)"
+
+#: options/option_descriptions.php:257
+#@ clear-line
+msgid "H4 Headings Font"
+msgstr "Шрифт заголовка H4"
+
+#: options/option_descriptions.php:261
+#@ clear-line
+msgid "H4 Headings Color"
+msgstr "Цвет заголовка H4"
+
+#: options/option_descriptions.php:262
+#@ clear-line
+msgid "H4 Headings Color is used on single post/page (<code>&lt;h4&gt;</code> tag)"
+msgstr "Цвет заголовка H2 используется при просмотре конкретной страницы (тег <code>&lt;h4&gt;</code>)"
+
+#: options/option_descriptions.php:265
+#@ clear-line
+msgid "Show Post Info"
+msgstr "Показывать инормацию о записи"
+
+#: options/option_descriptions.php:266
+#@ clear-line
+msgid "Show or not date, author and categories under post title"
+msgstr "Показывать инормацию о записи: дату, автора и категории под заголовком записи"
+
+#: options/option_descriptions.php:269
+#@ clear-line
+msgid "Normal Thumbnail Size"
+msgstr "Размер обычной миниатюры"
+
+#: options/option_descriptions.php:270
+#@ clear-line
+msgid "Width and height of post thumbnail images in pixels. They are visible in post lists like index page, category pages etc.<br/><b>Important</b>: Due to WordPress peculiarity you should regenerate <b>all</b> thumbnails on the theme install and on every change of these values.<br/><b>Tip</b>: you can use plugins like <a href=\"http://wordpress.org/extend/plugins/regenerate-thumbnails/\">Regenerate Thumbnails</a> and <a href=\"http://wordpress.org/extend/plugins/ajax-thumbnail-rebuild/\">AJAX Thumbnail Rebuild</a> to regenerate thumbnails"
+msgstr "Ширина и высота обычной миниатюры в пикселях. Такие миниатюры показываются в списке записей на главной странице, странице категорий и т.п.<br/><b>Важно</b>: Из-за особенности WordPress'a при работе с миниатюрами, вы должны перегенерировать <b>все</b> миниатюры при установке темы и при каждом изменении значений этой опции.<br/><b>Подсказка</b>: вы можете использовать плагины вроде <a href=\"http://wordpress.org/extend/plugins/regenerate-thumbnails/\">Regenerate Thumbnails</a> и <a href=\"http://wordpress.org/extend/plugins/ajax-thumbnail-rebuild/\">AJAX Thumbnail Rebuild</a> для регенерации миниатюр"
+
+#: options/option_descriptions.php:273
+#@ clear-line
+msgid "Column Thumbnail Size"
+msgstr "Размер миниатюр в колонках"
+
+#: options/option_descriptions.php:274
+#@ clear-line
+msgid "Width and height (in pixels) of post thumbnail images displayed in columns on the index page. See \"Normal Thumbnail Size\" option help for details.<br/>Please note that the width correlates with the \"Show Thumbnail Border\" option and column width on index page (calculated depending on page width, sidepar widths and column count). So first you should set those options, then see column width. Afterwards set this option. If you selected to Show Thumbnail Border you should decrease column width by 10"
+msgstr "Ширина и высота миниатюры, которые изображаются в колонках на главной странице.<br/><b>Важно</b>: Из-за особенности WordPress'a при работе с миниатюрами, вы должны перегенерировать <b>все</b> миниатюры при установке темы и при каждом изменении значений этой опции.<br/><b>Подсказка</b>: вы можете использовать плагины вроде <a href=\"http://wordpress.org/extend/plugins/regenerate-thumbnails/\">Regenerate Thumbnails</a> и <a href=\"http://wordpress.org/extend/plugins/ajax-thumbnail-rebuild/\">AJAX Thumbnail Rebuild</a> для регенерации миниатюр.<br/>Имейте ввиду, что ширина связана с опцией \"Показывать рамку миниатюры\" и шириной колонки на главной странице (вычисляется в зависимости от ширины страницы, боковых панелей и количества колонок). Таким образом, сначала необходимо установить эти значения, а затем смотреть, какой получилась ширина колонок. После этого, рассчитайте и установите ширину миниатюры в этой опции. Если вы выбрали Показывать рамку миниатют, необходимо уменьшить ширину колонки на 10 и полученное число записать в ширину миниатюры."
+
+#: options/option_descriptions.php:277
+#@ clear-line
+msgid "Show Thumbnail Border"
+msgstr "Показывать рамки миниатюр"
+
+#: options/option_descriptions.php:278
+#@ clear-line
+msgid "Whether show border around thumbnails or not"
+msgstr "Показывать или нет рамку вокруг миниатюр"
+
+#: options/option_descriptions.php:281
+#@ clear-line
+msgid "Post Link"
+msgstr "Ссылка в записях"
+
+#: options/option_descriptions.php:282
+#@ clear-line
+msgid "Color and text decoration for regular post links"
+msgstr "Цвет и оформление обычных ссылок в записях и страницах"
+
+#: options/option_descriptions.php:285
+#@ clear-line
+msgid "Post Link Visited"
+msgstr "Посещенная ссылка в записи"
+
+#: options/option_descriptions.php:286
+#@ clear-line
+msgid "Color and text decoration for visited post links"
+msgstr "Цвет и оформление посещенной ссылки в записях и страницах"
+
+#: options/option_descriptions.php:289
+#@ clear-line
+msgid "Preformatted Text Block Color"
+msgstr "Цвет блока преформатированного текста"
+
+#: options/option_descriptions.php:290
+#@ clear-line
+msgid "Border Color and Background Color of the preformatted text (<code>&lt;pre&gt;</code> tag)"
+msgstr "Цвет границы и фона преформатированного текста (<code>&lt;pre&gt;</code> tag)"
+
+#: options/option_descriptions.php:293
+#@ clear-line
+msgid "Blockquote Color"
+msgstr "Цвета цитаты"
+
+#: options/option_descriptions.php:294
+#@ clear-line
+msgid "Border Color and Background Color of the Blockquote text (<code>&lt;blockquote&gt;</code> tag)"
+msgstr "Цвет границы и фона цитаты (<code>&lt;blockquote&gt;</code> tag)"
+
+#: options/option_descriptions.php:297
+#@ clear-line
+msgid "Show \"Comments off\" text"
+msgstr "Показывать текст \"Комментарии отключены\""
+
+#: options/option_descriptions.php:298
+#@ clear-line
+msgid "Show or not \"Comments off\" text if comments are closed."
+msgstr "Показывать или нет текст \"Комментарии отключены\", если комментарии к записи закрыты"
+
+#: options/option_descriptions.php:301
+#@ clear-line
+msgid "Dividers color"
+msgstr "Цвет разделителей"
+
+#: options/option_descriptions.php:302
+#@ clear-line
+msgid "The color affects various kinds of dividers: <code>&lt;hr&gt;</code> tag, post info panels top border, comments borders etc."
+msgstr "Цвет влияет на различные виды разделителей: тег <code>&lt;hr&gt;</code>, цвет границы информационной панели записи, границы комментариев и т.д."
+
+#: options/option_descriptions.php:305
+#@ clear-line
+msgid "Show post's author"
+msgstr "Показывать автора записи"
+
+#: options/option_descriptions.php:306
+#@ clear-line
+msgid "Show or not post's author"
+msgstr "Показывать или нет автора записи в информационной панели записи"
+
+#: options/option_descriptions.php:309
+#@ clear-line
+msgid "Table Font"
+msgstr "Шрифт в таблицах"
+
+#: options/option_descriptions.php:313
+#@ clear-line
+msgid "Show Allowed Tags Below Comment Box"
+msgstr "Показывать разрешенные теги под полем ввода комментария"
+
+#: options/option_descriptions.php:314
+#@ clear-line
+msgid "Show or not tags (like <code>&lt;a href=\"\" title=\"\"&gt;</code>) allowed in comments"
+msgstr "Показывать или нет разрешенные в комментариях теги  (проде <code>&lt;a href=\"\" title=\"\"&gt;</code>)"
+
+#: options/option_descriptions.php:317
+#@ clear-line
+msgid "Avatar size in comments"
+msgstr "Размер аватара в комментариях"
+
+#: options/option_descriptions.php:318
+#@ clear-line
+msgid "Avatar size in comments (in pixels)"
+msgstr "Размер аватара в комментариях"
+
+#: options/option_descriptions.php:321
+#@ clear-line
+msgid "Comments Metadata Font"
+msgstr "Шрифт информации о комментарии"
+
+#: options/option_descriptions.php:322
+#@ clear-line
+msgid "The font that will be used to display comment's author, date and action links"
+msgstr "Шрифт, который используется для выода автора комментария, даты и ссылко действий над комментарием"
+
+#: options/option_descriptions.php:325
+#@ clear-line
+msgid "Comment metadata color"
+msgstr "Цвет информации о комментарии"
+
+#: options/option_descriptions.php:326
+#@ clear-line
+msgid "Color of permanent links to comments and \"edit\" links color"
+msgstr "Цвет ссылок в иноформации о комментарии"
+
+#: options/option_descriptions.php:329
+#@ clear-line
+msgid "Top level comment border"
+msgstr "Граница комментария верхнего уровня"
+
+#: options/option_descriptions.php:330
+#@ clear-line
+msgid "Define whether show border for the top level comment or not. Set its color"
+msgstr "Показывать или нет границу вокруг комментария верхнего уровня"
+
+#: options/option_descriptions.php:333
+#@ clear-line
+msgid "Commenter Font"
+msgstr "Шрифт автора комментария"
+
+#: options/option_descriptions.php:337
+#@ clear-line
+msgid "Color of links to commenter websites"
+msgstr "Цвет ссылки на сайт комментатора"
+
+#: options/option_descriptions.php:338
+#@ clear-line
+msgid "Regular and hovered colors of link to website of the comment author"
+msgstr "Цвета обычной ссылки на сайт автора комментария и при наведении мышки"
+
+#: options/option_descriptions.php:341
+#@ clear-line
+msgid "Post Author Link Color"
+msgstr "Цвет ссылки автора записи"
+
+#: options/option_descriptions.php:342
+#@ clear-line
+msgid "Color of link to the website of the post author"
+msgstr "Цвет ссылки на сайт автора записи"
+
+#: options/option_descriptions.php:345
+#@ clear-line
+msgid "Color of Comments by the Post Author"
+msgstr "Цвет комментариев, написанных автором записи"
+
+#: options/option_descriptions.php:346
+#@ clear-line
+msgid "You can set a bright color to make post author comments more noticeable"
+msgstr "Вы можете выделить комментарии автора записи, чтобы сделать его их более заметными"
+
+#: options/option_descriptions.php:349
+#: options/option_descriptions.php:350
+#@ clear-line
+msgid "Background Color of comment author and metadata bar"
+msgstr "Цвет фона автора и информации о комментарии"
+
+#: options/option_descriptions.php:353
+#@ clear-line
+msgid "Color of reply link"
+msgstr "Цвет ссылки ответа"
+
+#: options/option_descriptions.php:357
+#@ clear-line
+msgid "Background Color of comment reply link"
+msgstr "Цвет фона ссылки ответа"
+
+#: options/option_descriptions.php:361
+#@ clear-line
+msgid "Border Color of comment reply link"
+msgstr "Цвет границы ссылки ответа"
+
+#: options/option_descriptions.php:365
+#@ clear-line
+msgid "Image Border"
+msgstr "Рамки изображений"
+
+#: options/option_descriptions.php:366
+#@ clear-line
+msgid "Border color and corner radius for images in posts when using captions or <code>wp-caption</code> class"
+msgstr "Цвет и закругления рамки вокруг изображений в записях при использовании подписи или класса <code>wp-caption</code>"
+
+#: options/option_descriptions.php:369
+#@ clear-line
+msgid "Image Caption Font"
+msgstr "Шрифт подписи к изображению"
+
+#: options/option_descriptions.php:373
+#@ clear-line
+msgid "Image Caption Text Color"
+msgstr "Цвет текста подписи к изображению"
+
+#: options/option_descriptions.php:377
+#@ clear-line
+msgid "Page Box"
+msgstr "Оформление номеров страниц"
+
+#: options/option_descriptions.php:381
+#@ clear-line
+msgid "Current Page Box"
+msgstr "Текущая страница"
+
+#: options/option_descriptions.php:385
+#@ clear-line
+msgid "Page Box Hovered"
+msgstr "Страница при наведении"
+
+#: options/option_descriptions.php:389
+#@ clear-line
+msgid "Pageination Inactive Button"
+msgstr "Неактивная кнопка в панели страниц"
+
+#: options/option_descriptions.php:393
+#@ clear-line
+msgid "Use 3rd Party Plugin"
+msgstr "Используется отдельный SEO плагин"
+
+#: options/option_descriptions.php:394
+#@ clear-line
+msgid ""
+"Set the option to \"Yes\" if you use 3rd party SEO plugins like <a href=\"http://wordpress.org/extend/plugins/all-in-one-seo-pack/\">All in One SEO Pack</a> plugin. Note that if you select \"Yes\" the below options will not work.<br/>Also if \"Use 3rd Party SEO Plugin\" is set to \"Yes\" The Clear Line doesn't output at all:\n"
+"\n"
+"<pre>   &lt;title>\n"
+"   &lt;meta name=\"description\">\n"
+"   &lt;meta name=\"keywords\"></pre>\n"
+"All these tags are supposed to be outputted by a 3rd party SEO plugin. So if you don't configure the plugin, the title and meta tags are empty."
+msgstr ""
+"Установите ДА, если используете SEO-плагины, вроде  <a href=\"http://wordpress.org/extend/plugins/all-in-one-seo-pack/\">All in One SEO Pack</a>. Обратите внимание, что при выборе значения ДА, нижеследующие опции не работают!<br/>Также при значении ДА, тема Clear Line совсем не выводит:\n"
+"\n"
+"<pre>   &lt;title>\n"
+"   &lt;meta name=\"description\">\n"
+"   &lt;meta name=\"keywords\"></pre>\n"
+"Предполагается, что все эти теги должены быть выведены используемыми SEO-плагинами. При этом, если вы несконфигурируете эти плагины, теги <b>title и meta tags останутся пустыми</b>."
+
+#: options/option_descriptions.php:402
+#@ clear-line
+msgid "Home Title"
+msgstr "Title на главной странице"
+
+#: options/option_descriptions.php:403
+#@ clear-line
+msgid "This text will be placed into <code>&lt;title&gt;</code> tag"
+msgstr "Этот текст будет помещен в тег <code>&lt;title&gt;</code>"
+
+#: options/option_descriptions.php:406
+#@ clear-line
+msgid "Home Description"
+msgstr "Description на главной странице"
+
+#: options/option_descriptions.php:407
+#@ clear-line
+msgid "This text will be placed into <code>&lt;meta name=\"description\"&gt;</code> tag"
+msgstr "Этот текст будет помещен в тег <code>&lt;meta name=\"description\"&gt;</code>"
+
+#: options/option_descriptions.php:410
+#@ clear-line
+msgid "Home Keywords"
+msgstr "Keywords на главной странице"
+
+#: options/option_descriptions.php:411
+#@ clear-line
+msgid "This text will be placed into <code>&lt;meta name=\"keywords\"&gt;</code> tag"
+msgstr "Этот текст будет помещен в тег <code>&lt;meta name=\"keywords\"&gt;</code> tag"
+
+#: options/option_descriptions.php:414
+#@ clear-line
+msgid "Post Title Format"
+msgstr "Формат Title в записи"
+
+#: options/option_descriptions.php:415
+#, php-format
+#@ clear-line
+msgid "Format of <code>&lt;title&gt;</code> tag on single post page.<br/>Available shortcodes are: %blog_title%, %blog_description%, %category%, %post_title%"
+msgstr "Формат тега <code>&lt;title&gt;</code> в записи.<br/>Доступные коды: %blog_title%, %blog_description%, %category%, %post_title%"
+
+#: options/option_descriptions.php:418
+#@ clear-line
+msgid "Page Title Format"
+msgstr "Формат Title страницы"
+
+#: options/option_descriptions.php:419
+#, php-format
+#@ clear-line
+msgid "Format of <code>&lt;title&gt;</code> tag on single page.<br/>Available shortcodes are: %blog_title%, %blog_description%, %page_title%"
+msgstr "Формат тега <code>&lt;title&gt;</code> на странице.<br/>Доступные коды: %blog_title%, %blog_description%, %page_title%"
+
+#: options/option_descriptions.php:422
+#@ clear-line
+msgid "Category Title Format"
+msgstr "Формат Title категорий"
+
+#: options/option_descriptions.php:423
+#, php-format
+#@ clear-line
+msgid "Format of <code>&lt;title&gt;</code> tag on category page.<br/>Available shortcodes are: %blog_title%, %blog_description%, %category%, %category_description%"
+msgstr "Формат тега <code>&lt;title&gt;</code>на странице категорий.<br/>Available shortcodes are: %blog_title%, %blog_description%, %category%, %category_description%"
+
+#: options/option_descriptions.php:426
+#@ clear-line
+msgid "Tag Title Format"
+msgstr "Формат Title меток"
+
+#: options/option_descriptions.php:427
+#, php-format
+#@ clear-line
+msgid "Format of <code>&lt;title&gt;</code> tag on tag page.<br/>Available shortcodes are: %blog_title%, %blog_description%, %tag%"
+msgstr "Формат тега <code>&lt;title&gt;</code> на странице меток.<br/>Available shortcodes are: %blog_title%, %blog_description%, %tag%"
+
+#: options/option_descriptions.php:430
+#@ clear-line
+msgid "Column Count"
+msgstr "Количество колонок"
+
+#: options/option_descriptions.php:431
+#@ clear-line
+msgid "Column count of posts on index page. Set it to 0 or 1 to show common post list"
+msgstr "Количество колонок записей на главной странце. Установите 0 или 1, чтобы отображался обычный список записей"
+
+#: options/option_descriptions.php:434
+#@ clear-line
+msgid "Column Rows"
+msgstr "Рядов колонок"
+
+#: options/option_descriptions.php:435
+#@ clear-line
+msgid "Rows count of columnar posts on index page."
+msgstr "Количество рядов записей в колонках на главной странице"
+
+#: options/option_descriptions.php:438
+#@ clear-line
+msgid "Show in columns post from this category"
+msgstr "Показывать в колонках записи из этой категории"
+
+#: options/option_descriptions.php:439
+#@ clear-line
+msgid "If you want to dispalay in columns only posts from one category (e.g. featured posts) select the category here"
+msgstr "Если вы хотите, чтобы в колонках отображались только записи определенной категории (например, избранные), выберете здесь категорию"
+
+#: options/option_descriptions.php:442
+#@ clear-line
+msgid "Show Latest Post Before Columns"
+msgstr "Показывать свежую запись перед колонками"
+
+#: options/option_descriptions.php:443
+#@ clear-line
+msgid "Whether show the latest post before columnar posts or after them."
+msgstr "Показывать или свежую запись перед колонками"
+
+#: options/option_descriptions.php:450
+#: options/option_descriptions.php:451
+#@ clear-line
+msgid "Excerpts Length"
+msgstr "Длина цитаты"
+
+#: options/option_descriptions.php:458
+#@ clear-line
+msgid "Show Content if no excerpt was provided"
+msgstr "Показывать содержимое, если не задана цитата"
+
+#: options/option_descriptions.php:459
+#@ clear-line
+msgid "The option defines what to display if <b>Show Post Excerpts</b> is set to \"Yes\" but no excerpt is provided for a post:<br/>- if \"No\": generate excerpt from the post content. If a thumbnail is set for the post, it will be displayed;<br/>- if \"Yes\": show content of the post. You can use &lt;!--more--&gt; tag to shorten oputput.<br/><br/>Please note that <b>columnar posts are always displayed as excerpts</b> regardless of the option value.<br/>"
+msgstr "Эта опция определяет, что выводить, если опция \"Показывать цитаты\" установлена в ДА, но цитата не введена для записи:<br/>- если НЕТ: генерировать цитату из содержимого записи. Если для записи определена миниатюра, она будет показана;<br/>- если ДА: показывать содержимое записи. Вы можете использовать тег &lt;!--more--&gt; чтобы сократить выводимый текст.<br/><br/>Имейте в виду, что <b> записи в колонках всегда выводятся как цитаты</b> - вне зависимости от этой опции.<br/>"
+
+#: options/option_descriptions.php:462
+#@ clear-line
+msgid "Show Post Info in Columns"
+msgstr "Показывать информацию о записи в колонках"
+
+#: options/option_descriptions.php:463
+#@ clear-line
+msgid "Whether show post date and categories of columnar posts"
+msgstr "Показывать или нет дату и категроии записей в колонках"
+
+#: options/option_descriptions.php:479
+#@ clear-line
+msgid "Sharing Buttons on Blue Sidebar"
+msgstr "Кнопки социальных сервисов на синей боковой панели"
+
+#: options/option_descriptions.php:483
+#@ clear-line
+msgid "Sharing Buttons on Orange Sidebar"
+msgstr "Кнопки социальных сервисов на оранжевой боковой панели"
+
+#: options/option_descriptions.php:487
+#@ clear-line
+msgid "Sharing Buttons on Green Sidebar"
+msgstr "Кнопки социальных сервисов на зелёной боковой панели"
+
+#: options/option_descriptions.php:491
+#@ clear-line
+msgid "Show RSS Button at top of the page"
+msgstr "Показывать кнопку RSS вверху страницы"
+
+#: options/option_descriptions.php:466
+#@ clear-line
+msgid "Social Buttons Theme"
+msgstr "Тема кнопок социальных сервисов"
+
+#: options/options.php:450
+#@ clear-line
+msgid "none"
+msgstr "не выбрано"
+
+#: options/options.php:818
+#@ default
+msgid "Clear Line Theme Options"
+msgstr ""
+
+#: options/value_sets.php:12
+#@ clear-line
+msgid "Yes"
+msgstr "Да"
+
+#: options/value_sets.php:13
+#@ clear-line
+msgid "No"
+msgstr "Нет"
+
+#: options/value_sets.php:40
+#@ clear-line
+msgid "No sidebars"
+msgstr "Без боковых панелей"
+
+#: options/value_sets.php:41
+#@ clear-line
+msgid "Right sidebar"
+msgstr "Правая боковая панель"
+
+#: options/value_sets.php:42
+#@ clear-line
+msgid "Left sidebar"
+msgstr "Левая боковая панель"
+
+#: options/value_sets.php:43
+#@ clear-line
+msgid "Left and right sidebars"
+msgstr "Левая и правая боковые панели"
+
+#: options/value_sets.php:44
+#@ clear-line
+msgid "Two sidebars at the left"
+msgstr "Две боковые панели слева"
+
+#: options/value_sets.php:45
+#@ clear-line
+msgid "Two sidebars at the right"
+msgstr "Две боковые панели справа"
+
+#: options/value_sets.php:46
+#@ clear-line
+msgid "Three or four sidebars at the left"
+msgstr "Три или четыре боковые панели слева"
+
+#: options/value_sets.php:47
+#@ clear-line
+msgid "Three or four sidebars at the right"
+msgstr "Три или четыре боковые панели справа"
+
+#: options/value_sets.php:60
+#@ clear-line
+msgid "One column in the footer"
+msgstr "Одна колонка в футере"
+
+#: options/value_sets.php:61
+#@ clear-line
+msgid "Two columns in the footer"
+msgstr "Две колонки в футере"
+
+#: options/value_sets.php:62
+#@ clear-line
+msgid "Three columns in the footer"
+msgstr "Три колонки в футере"
+
+#: options/value_sets.php:63
+#@ clear-line
+msgid "Four columns in the footer"
+msgstr "Четыре колонки в футере"
+
+#: options/value_sets.php:177
+#@ clear-line
+msgid "Latest Posts"
+msgstr "Свежие записи"
+
+#: options/value_sets.php:178
+#@ clear-line
+msgid "Selected Posts Only"
+msgstr "Только выбранные записи"
+
+#: options/value_sets.php:179
+#@ clear-line
+msgid "Selected Pages Only"
+msgstr "Только выбранные страницы"
+
+#: options/value_sets.php:205
+#@ clear-line
+msgid "Green jelly"
+msgstr "Зелёное желе"
+
+#: options/value_sets.php:206
+#@ clear-line
+msgid "Grey"
+msgstr "Серая"
+
+#: single.php:10
+#@ default
+msgid "Goto homepage"
+msgstr ""
+
+#: single.php:10
+#@ default
+msgid "Home"
+msgstr ""
+
+#: archive.php:21
+#, php-format
+#@ clear-line
+msgid "Category: <span>%s</span>"
+msgstr "Рубрика: <span>%s</span>"
+
+#. Not gettexted string WP_I18N_CONFIG
+#: i18n/t/data/not-gettexted-0-result.php:11
+#: i18n/t/data/not-gettexted-0-work.php:11
+#@ {php-code}
+msgid "Translation: There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%s' class='button'>Create a Configuration File</a>"
+msgstr ""
+
+#. Not gettexted string WP_I18N_ERROR
+#: i18n/t/data/not-gettexted-0-result.php:11
+#: i18n/t/data/not-gettexted-0-work.php:11
+#@ {php-code}
+msgid "Translation: WordPress &rsaquo; Error"
+msgstr ""
+
+#. Not gettexted string WP_I18N_CONFIG
+#: i18n/t/data/not-gettexted-0.php:11
+#@ {php-code}
+msgid " There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%s' class='button'>Create a Configuration File</a>"
+msgstr ""
+
+#. Not gettexted string WP_I18N_ERROR
+#: i18n/t/data/not-gettexted-0.php:11
+#@ {php-code}
+msgid "WordPress &rsaquo; Error"
+msgstr ""
+
+#: options/admin.options.php:1261
+#@ clear-line
+msgid "Link Text"
+msgstr "Текст ссылки"
+
+#: options/option_descriptions.php:165
+#@ clear-line
+msgid "Header Title Top Padding"
+msgstr "Верхний отступ заголовка блога"
+
+#: options/option_descriptions.php:169
+#@ clear-line
+msgid "Custom Blog Title"
+msgstr "Пользовательский заголовок блога"
+
+#: options/option_descriptions.php:170
+#@ clear-line
+msgid "This value will override your blog title and description in the header. The main purpose of the option is to let you design your blog title as you like. <b>HTML tags are allowed here. Be carefull with them!</b><br/>Leave the field blank to display standard blog title.<br/>Here is a small demo: <br/><img src=\"${template_url}/options/img/help/custom_blog_title.png\">"
+msgstr "Это значение перезапишет заголовок и описание блога в шапке. Основной смысл этой опции заключается в возможности сделать любой дизайн вашего заголовка. <b>Здесь разрешены HTML-теги. Будьте осторожнее с ними!</b><br/>Оставьте это поле пустым, чтобы выводить стандартный заголовок блога.<br/>Небольшая демонстрация возможностей опции: <br/><img src=\"${template_url}/options/img/help/custom_blog_title.png\">"
+
+#: options/option_descriptions.php:174
+#@ clear-line
+msgid "Image of this size should be uploaded at Appearance -> Header. The uploaded image will be displayed in the header as a background image. <br/><br/> <b>Fit header space height to the image height</b><br/>If Fit header space height = NO:<br/><img src=\"${template_url}/options/img/help/header_image_size_1.png\"><br/><br/>If Fit header space height = YES:<br/><img src=\"${template_url}/options/img/help/header_image_size_2.png\">"
+msgstr "Изображение этого размера должно быть загружено на странице Внешний вид -> Заголовок. Это загруженное изображение будет отображено как фоновое изображение в шапке. <br/><br/> <b>Подгонять высоту шапки под изображение</b><br/>Если Подгонять высоту шапки = НЕТ:<br/><img src=\"${template_url}/options/img/help/header_image_size_1.png\"><br/><br/>Если Подгонять высоту шапки = ДА:<br/><img src=\"${template_url}/options/img/help/header_image_size_2.png\">"
+
+#: options/option_descriptions.php:185
+#@ clear-line
+msgid "Show Top Menu"
+msgstr "Показывать верхнее меню"
+
+#: options/option_descriptions.php:186
+#@ clear-line
+msgid "If you set the option to NO, the top menu will be hidden"
+msgstr "Если установить значение опции равным НЕТ, то верхнее меню будет скрыто"
+
+#: options/option_descriptions.php:201
+#@ clear-line
+msgid "Show Breadcrumbs"
+msgstr "Показывать навигационный путь"
+
+#: options/option_descriptions.php:202
+#@ clear-line
+msgid "Select YES to show entire path (categories) to current single post"
+msgstr "Установите ДА, чтобы показывать полный путь (категории) до текущей записи"
+
+#: options/option_descriptions.php:446
+#@ clear-line
+msgid "Show excerpts on"
+msgstr "Показывать цитаты на"
+
+#: options/option_descriptions.php:454
+#@ clear-line
+msgid "Show \"More\" link for excerpts"
+msgstr "Показывать ссылку \"далее\" для цитат"
+
+#: options/option_descriptions.php:455
+#@ clear-line
+msgid "This option defines whether show \"more\" link or not when showing post excerpts"
+msgstr "Эта опция определяет надо ли показывать ссылку \"далее\" при отображении цитат записей"
+
+#: options/option_descriptions.php:467
+#@ clear-line
+msgid ""
+"You can add your own themes in three quite simple steps:<br/>1. Upload your images of the buttons to /clear-line/img/social/&lt;<i>new_theme_folder</i>&gt;/\n"
+"Please note that the names of the files must be the same as those in the folder \"grey\"<br/>\n"
+"2. open file /options/value_set.php and add the line marked red here: <pre>'SOCIAL_THEME' => array(\n"
+"\t'values'=>array(\n"
+"\t\t'green-jelly-icons' =>__('Green jelly',THEME_DOMAIN),\n"
+"\t\t'grey'\t\t\t=>__('Grey',THEME_DOMAIN),\n"
+"\t\t<font style=\"color:red\">'new_theme_folder'\t=>__('Your theme name',THEME_DOMAIN),</font>\n"
+"\t),</pre>\n"
+"3. Save and upload to your hosting<br/>\n"
+"(4). Send me images and theme name, I'll include the theme to the next release"
+msgstr ""
+"Вы можете добавить свои собственные темы тремя простыми шагами:<br/>1. Загрузите изображения кнопок в /clear-line/img/social/&lt;<i>new_theme_folder</i>&gt;/\n"
+"Обратите внимание, что названия файлов должны быть точно такими же, как и в папке \"grey\"<br/>\n"
+"2. Откройте файл /options/value_set.php и добавьте строку, отмеченную красным: <pre>'SOCIAL_THEME' => array(\n"
+"\t'values'=>array(\n"
+"\t\t'green-jelly-icons' =>__('Green jelly',THEME_DOMAIN),\n"
+"\t\t'grey'\t\t\t=>__('Grey',THEME_DOMAIN),\n"
+"\t\t<font style=\"color:red\">'new_theme_folder'\t=>__('Your theme name',THEME_DOMAIN),</font>\n"
+"\t),</pre>\n"
+"3. Сохраните и загрузите файл на хостинг<br/>\n"
+"(4). Пришлите мне свои картинки и название - я включу их в следующую версию."
+
+#: options/options_categories.php:8
+#@ clear-line
+msgid ""
+"<h1>Clear Line Theme Options</h1>\n"
+"\t\tThank you for using the theme!<br/>\n"
+"\t\tThe Clear Line Theme is a clear and very lightweight theme with ample opportunities of customization. \n"
+"\t\tAs for now the theme contains ${option_count['full-fledged']} full-fledged options that consist of ${option_count['sub-options']} sub-options.\n"
+"\t\tHere are some tips that can help you to understend them better.\n"
+"\n"
+"\t\t<h2>Translate the theme</h2>\n"
+"\t\tThe theme is translation ready now! You can translate it and your translation will be available in the next theme release!<br/>\n"
+"\t\tPlease read <a href=\"http://vatuma.com/wordpress-themes/clear-line/translation\">instructions</a> for details.\n"
+"\t\t\n"
+"\t\t<h2>Getting help</h2>\n"
+"\t\t\n"
+"\t\tTo get help on a theme option just click it's title:<br/><br/>\n"
+"\t\t<img src=\"${template_url}/options/img/help/header_decs_option.gif\"/>\n"
+"\t\t\n"
+"\t\t<h2>Inheritance</h2>\n"
+"\t\t\n"
+"\t\tThe unique feature of the option page is the options inheritance. \n"
+"\t\tWith this feature, options can be set to their own values or be inherited from another \"parent\" option.\n"
+"\t\tThanks to the inheritance, you can change color scheme (e.g. green to blue) by changing only three options.\n"
+"\t\t<br/>\n"
+"\t\tThe following picture explains how it works<br/><br/>\n"
+"\t\t<img src=\"${template_url}/options/img/help/inherited_option.gif\"/>\n"
+"\t\t<br/><br/>\n"
+"\t\tNote that you can create chains of inherited options.<br/>\n"
+"\t\t\n"
+"\t\t<h2>Support</h2>\n"
+"\t\t\n"
+"\t\tYou can ask questions, report bugs, request a feature or new options at the <a href=\"http://vatuma.com/support/\" target=\"_blank\">Support Forum</a>"
+msgstr "<h1>Опции темы Clear Line</h1>\n\t\tСпасибо, что выбрали эту тему!<br/>\n\t\tТема Clear Line имеет очень легкий дизайн и огромные возможности настройки под ваш вкус. \n\t\tНа текущий момент она содержит ${option_count['full-fledged']} полноценных опций, которые состоят из ${option_count['sub-options']} суб-опций.Вот несколько подсказок, которые помогут лучше их понять.<h2><h2>Получение помощи</h2>Чтобы получить подсказку по опции, просто кликните её название:<br/><br/>\n\t\t<img src=\"${template_url}/options/img/help/header_decs_option.gif\"/>\n\t\t\n\t\t<h2>Наследование</h2>\n\t\t\n\t\tУникальная особенность темы - это наследование опций. \n\t\tС возможностью наследования опции могут иметь собственные значения, а могут наследовать значения других опций.\n\t\tНапирмер, благодаря этой функции, вы можете поменять цветовую схему темы (напрмер, с зеленой на синюю), изменив всего три опции.\n\t\t<br/>\n\t\tСлдующая иллюстрация показывает, как это работает<br/><br/>\n\t\t<img src=\"${template_url}/options/img/help/inherited_option.gif\"/>\n\t\t<br/><br/>\n\t\tОбратите внимание, что вы можете создавать цепочки наследуемых опций.<br/>\n\t\t\n\t\t<h2>Поддержка</h2>\n\t\t\n\t\tВы можете задать вопрос, сообщить об ошибке или запросить новую опцию на <a href=\"http://vatuma.com/support/\" target=\"_blank\">Форуме</a>"
+
+#: options/value_sets.php:227
+#@ clear-line
+msgid "At the left of post title and excerpt"
+msgstr "Слева от заголовка записи и цитаты"
+
+#: search.php:11
+#, php-format
+#@ clear-line
+msgid "Search results for %s"
+msgstr "Результаты поиска %s"
+
+#: options/option_descriptions.php:14
+#@ clear-line
+msgid "Select what sidebars must be displayed on a single page."
+msgstr "Выберете, какие боковые панели должны отображаться на одиночной странцие"
+
+#: options/value_sets.php:226
+#@ clear-line
+msgid "Under post title, at the left of excerpt"
+msgstr "Под заголовком записи, слева от цитаты"
+
+#: options/option_descriptions.php:166
+#@ clear-line
+msgid "If you want to have more space above the blog title, set a non-zero value."
+msgstr "Если вы хотите иметь больше места над заголовком блога, установите положительное значение"
+
+#: options/option_descriptions.php:334
+#@ clear-line
+msgid "The font that will be used to display comment's author."
+msgstr "Шрифт, который используется для отображения автора комментария"
+
+#: options/admin.options.php:420
+#: options/admin.options.php:515
+#@ default
+msgid "Transparent:"
+msgstr ""
+
+#: options/admin.options.php:420
+#: options/admin.options.php:515
+#@ default
+msgid "Color:"
+msgstr ""
+
+#: options/options_categories.php:7
+#@ clear-line
+msgid "About"
+msgstr "О теме"
+
+#: options/options_categories.php:45
+#@ clear-line
+msgid "General"
+msgstr "Общие"
+
+#: options/options_categories.php:49
+#@ clear-line
+msgid "Header"
+msgstr "Шапка"
+
+#: options/options_categories.php:53
+#@ clear-line
+msgid "Navigation"
+msgstr "Навигация"
+
+#: options/options_categories.php:57
+#@ clear-line
+msgid "Sidebars"
+msgstr "Боковые панели"
+
+#: options/options_categories.php:61
+#@ clear-line
+msgid "Footer"
+msgstr "Футер"
+
+#: options/options_categories.php:65
+#@ clear-line
+msgid "Post List"
+msgstr "Список записей"
+
+#: options/options_categories.php:69
+#@ clear-line
+msgid "Post"
+msgstr "Запись"
+
+#: options/options_categories.php:73
+#@ clear-line
+msgid "Social"
+msgstr "Социальные"
+
+#: options/options_categories.php:77
+#@ clear-line
+msgid "Headings"
+msgstr "Заголовки"
+
+#: options/options_categories.php:81
+#@ clear-line
+msgid "Comments"
+msgstr "Комментарии"
+
+#: options/options_categories.php:85
+#@ clear-line
+msgid "Images"
+msgstr "Изображения"
+
+#: options/options_categories.php:89
+#@ clear-line
+msgid "Pagination"
+msgstr "Нумерация страниц"
+
+#: options/options_categories.php:93
+#@ clear-line
+msgid "SEO"
+msgstr "SEO"
+

@@ -1,0 +1,135 @@
+/* 2_right_sidebars.css */
+<?php if ($options[$shortname . '_cyan_sidebar_width_uom']  ==  $options[$shortname . '_green_sidebar_width_uom']): ?>
+	div#wrapper{float:left;width:100%}
+	div#content-wrapper
+	{
+		margin-right: <?php echo $options[$shortname . '_cyan_sidebar_width_value'] + $options[$shortname . '_green_sidebar_width_value'];?><?php echo $options[$shortname . '_green_sidebar_width_uom'];?>;
+	}
+	div#cyan-sidebar
+	{
+		float:left;
+		width: <?php echo $options[$shortname . '_cyan_sidebar_width_value']; ?><?php echo $options[$shortname . '_green_sidebar_width_uom'];?>;
+		margin-left:-<?php echo $options[$shortname . '_cyan_sidebar_width_value'] + $options[$shortname . '_green_sidebar_width_value'];?><?php echo $options[$shortname . '_green_sidebar_width_uom'];?>;
+	}
+	div#green-sidebar
+	{
+		float:left;
+		width:<?php echo $options[$shortname . '_green_sidebar_width_value']; ?><?php echo $options[$shortname . '_green_sidebar_width_uom'];?>;
+		margin-left:-<?php echo $options[$shortname . '_green_sidebar_width_value']; ?><?php echo $options[$shortname . '_green_sidebar_width_uom'];?>;
+	}
+<?php else: ?>
+
+<?php //elseif ($options[$shortname . '_cyan_sidebar_width_uom']  == '%' OR $options[$shortname . '_green_sidebar_width_uom']  == '%'): ?>
+	
+	/*
+	div#wrapper{float:left;width:100%;margin-left:-200px}
+	div#content{margin: 0 25% 0 200px}
+	div#navigation{float:left;width:25%;margin-left:-25%}
+	div#extra{float:left;width:200px}
+	div#footer{clear:left;width:100%}
+	*/
+	div#wrapper
+	{
+		float:left;
+		width:100%;
+		margin-left:-<?php echo $options[$shortname . '_green_sidebar_width_value'];?><?php echo $options[$shortname . '_green_sidebar_width_uom'];?>;
+	}
+	div#content-wrapper
+	{
+		margin-right: <?php echo $options[$shortname . '_cyan_sidebar_width_value']?><?php echo $options[$shortname . '_cyan_sidebar_width_uom'];?>;
+		margin-left: <?php echo $options[$shortname . '_green_sidebar_width_value'];?><?php echo $options[$shortname . '_green_sidebar_width_uom'];?>;
+	}
+	div#cyan-sidebar
+	{
+		float:left;
+		width: <?php echo $options[$shortname . '_cyan_sidebar_width_value']; ?><?php echo $options[$shortname . '_cyan_sidebar_width_uom'];?>;
+		margin-left:-<?php echo $options[$shortname . '_cyan_sidebar_width_value']?><?php echo $options[$shortname . '_cyan_sidebar_width_uom'];?>
+	}
+	div#green-sidebar
+	{
+		float:left;
+		width:<?php echo $options[$shortname . '_green_sidebar_width_value']; ?><?php echo $options[$shortname . '_green_sidebar_width_uom'];?>;
+	}
+
+
+<?php endif;?>
+div#footer{clear:left;width:100%}
+div#green-sidebar .margines,
+div#cyan-sidebar .margines
+{
+	/*<?php if ($options[$shortname . '_column_divider'] == 'yes') echo 'border-left: 1px solid '.$options[$shortname . '_dividers_color'].';'?>*/
+	padding:0px 15px 15px 15px;
+}
+	.sidebar .column
+	{
+		<?php if ($options[$shortname . '_column_divider'] == 'yes') echo 'border-left: 1px solid '.$options[$shortname . '_dividers_color'].';'?>
+
+	}
+/*
+
+div#container{width:700px;margin:0 auto}
+div#wrapper{float:left;width:100%}
+div#content{margin-right: 300px}
+div#navigation{float:left;width:150px;margin-left:-150px}
+div#extra{float:left;width:150px;margin-left:-300px}
+div#footer{clear:left;width:100%}
+
+div#wrapper{float:left;width:100%;margin-left:-200px}
+div#content{margin: 0 25% 0 200px}
+div#navigation{float:left;width:25%;margin-left:-25%}
+div#extra{float:left;width:200px}
+div#footer{clear:left;width:100%}
+
+
+#container {
+	float: left;
+	width: 100%;
+}
+#content {
+	margin: 0 400px 0 0;
+}
+#cyan-sidebar, #green-sidebar {
+	float: left;
+	overflow: hidden;
+}
+#cyan-sidebar {
+	margin: 0 0 0 -380px;
+	width: 180px;
+}
+#green-sidebar {
+	margin: 0 0 0 -180px;
+	width: 180px;
+}
+#footer {
+	clear: left;
+	width: 100%;
+}*/
+/*
+#content
+{ 
+	float: left;
+	margin: 10px 0px 10px 10px;
+	width: 610px;
+	xdisplay: inline;
+	position: relative;
+}
+#blue-sidebar
+{ /*280(w+m+p)+710(w+m) = 990 /
+	float: left;
+	margin: 20px 00px 0px 20px;
+	padding: 0px 0px 0 10px;
+	width: 150px;
+	display: inline;
+	position: relative;
+}
+#green-sidebar
+{
+	float: left;
+	margin: 20px 10px 0px 20px;
+	padding: 0px 10px 0 0px;
+	width: 150px;
+	display: inline;
+	position: relative;
+
+}
+*/

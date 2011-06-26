@@ -1,0 +1,27 @@
+/* left_sidebar.css */
+	div#wrapper
+	{
+		float:right;
+		width:100%;
+		margin-left: -<?php echo $options[$shortname . '_blue_sidebar_width_value'];?><?php echo $options[$shortname . '_blue_sidebar_width_uom'];?>;
+	}
+	div#content-wrapper
+	{
+		margin-left: <?php echo $options[$shortname . '_blue_sidebar_width_value']; ?><?php echo $options[$shortname . '_blue_sidebar_width_uom'];?>;
+	}
+	div#blue-sidebar
+	{
+		float:left;
+		width: <?php echo $options[$shortname . '_blue_sidebar_width_value']; ?><?php echo $options[$shortname . '_blue_sidebar_width_uom'];?>;
+	}	
+	div#blue-sidebar .margines
+	{
+		/*<?php if ($options[$shortname . '_column_divider'] == 'yes') echo 'border-right: 1px solid '.$options[$shortname . '_dividers_color'].';'?>*/
+		padding:0px 15px 15px 15px;
+	}
+	.sidebar .column
+	{
+		<?php if ($options[$shortname . '_column_divider'] == 'yes') echo 'border-right: 1px solid '.$options[$shortname . '_dividers_color'].';'?>
+		/*margin-top:18px;*/
+
+	}

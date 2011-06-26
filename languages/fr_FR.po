@@ -1,0 +1,1455 @@
+# Translation of the WordPress theme Clear Line 0.6.3 by Ivan Milaev.
+# Copyright (C) 2011 Ivan Milaev
+# This file is distributed under the same license as the Clear Line package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Clear Line 0.6.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/clear-line\n"
+"POT-Creation-Date: 2011-02-08 00:28+0300\n"
+"PO-Revision-Date: 2011-03-02 12:16+0100\n"
+"Last-Translator: Frederic Ravetier <fred.ravetier@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: 404.php:4
+msgid "page not found"
+msgstr "page non trouvée"
+
+#: 404.php:5
+msgid "The page you are looking for is not here"
+msgstr "la page que vous cherchez n'est pas là"
+
+#: 404.php:7
+msgid "Here are some ways to find what you are looking for"
+msgstr "Voici quelques faþons de trouver ce que vous cherchez"
+
+#: 404.php:11
+msgid "<b>Search</b> the site"
+msgstr "<b>Rechercher</b> le site"
+
+#: 404.php:13
+msgid "Search"
+msgstr "Rechercher"
+
+#: 404.php:18
+msgid "<b>Browse</b>  categories, pages, tags"
+msgstr "<b>Parcourir</b> catégories, pages, tags"
+
+#: 404.php:21
+msgid "Categories"
+msgstr "Catégories"
+
+#: 404.php:29
+msgid "Pages"
+msgstr "Pages"
+
+#: 404.php:38
+#: single.php:40
+msgid "Tags"
+msgstr "Tags"
+
+#: 404.php:45
+msgid "No! I'd better read something else!"
+msgstr "Non! Je devrais mieux lire autre chose!"
+
+#: 404.php:48
+msgid "Read recent posts"
+msgstr "Lire les sujets récents"
+
+#: archive.php:12
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Archives journalières: <span>%s</span>"
+
+#: archive.php:14
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Archives Mensuelles: <span>%s</span>"
+
+#: archive.php:16
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Archives annuelles: <span>%s</span>"
+
+#: archive.php:18
+#, php-format
+msgid "Posts Tagged by <span>%s</span>"
+msgstr "Posts Taggés par <span>%s</span>"
+
+#: archive.php:21
+#, php-format
+msgid "Category: <span>%s</span>"
+msgstr "Catégorie: <span>%s</span>"
+
+#: archive.php:23
+msgid "Blog Archives"
+msgstr "Archives du blog"
+
+#: archive.php:40
+#: author.php:49
+#: category.php:23
+#: functions.php:635
+#: page.php:13
+#: pg-tpl-1-left-sidebar.php:16
+#: pg-tpl-1-right-sidebar.php:16
+#: pg-tpl-2-left-sidebars.php:16
+#: pg-tpl-2-right-sidebars.php:16
+#: pg-tpl-4-left-sidebars.php:16
+#: pg-tpl-4-right-sidebars.php:16
+#: pg-tpl-left-right-sidebars.php:16
+#: pg-tpl-no-sidebars.php:16
+msgid "(more...)"
+msgstr "(suite...)"
+
+#: archive.php:48
+#: author.php:54
+#: category.php:28
+#: search.php:18
+#: single.php:60
+msgid "Sorry, no posts matched your criteria."
+msgstr "Désolé, aucun sujet ne correspond à vos critères"
+
+#: archive.php:66
+#: author.php:72
+#: category.php:46
+#: index.php:88
+#: search.php:36
+msgid "&laquo; Previous Page"
+msgstr "&laquo; Page précédente"
+
+#: archive.php:66
+#: author.php:72
+#: category.php:46
+#: index.php:88
+#: search.php:36
+msgid "Next Page &raquo;"
+msgstr "Page suivante &raquo;"
+
+#: author.php:13
+#, php-format
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#: author.php:23
+#, php-format
+msgid "About %s"
+msgstr "A propos %s"
+
+#: comments.php:9
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:13
+msgid "Email"
+msgstr "Courriel"
+
+#: comments.php:17
+msgid "Website"
+msgstr "Site Web"
+
+#: comments.php:24
+msgctxt "noun"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: comments.php:36
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Ce sujet est protégé par un mot de passe. Entrez le mot de passe pour voir les commentaires"
+
+#: comments.php:53
+#, php-format
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "Une réponse à %2$s"
+msgstr[1] "%1$s réponses à %2$s"
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr "Commentaires clos"
+
+#: footer.php:13
+msgid "Recent Posts"
+msgstr "Sujets récents"
+
+#: functions-core.php:130
+msgid "select one"
+msgstr "selectionnez un"
+
+#: functions-core.php:132
+msgid "All Categories"
+msgstr "Toutes les catégories"
+
+#: functions.php:150
+msgid "Permanent link to the comment"
+msgstr "Lien permanent au commentaire"
+
+#: functions.php:150
+#, fuzzy
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: functions.php:150
+msgid "(Edit)"
+msgstr "(Editer)"
+
+#: functions.php:155
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: functions.php:349
+msgid "Posted by"
+msgstr "Posté par"
+
+#: functions.php:351
+msgid "under"
+msgstr "sous"
+
+#: functions.php:353
+msgid "Filled under"
+msgstr "Rempli sous"
+
+#: functions.php:365
+msgid "No Comments"
+msgstr "Aucun commentaire"
+
+#: functions.php:365
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: functions.php:365
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: functions.php:367
+msgid "Comments off"
+msgstr "Commentaires terminés"
+
+#: functions.php:369
+msgid "Edit This"
+msgstr "Editer ceci"
+
+#: layouts/2_left_sidebars.php:31
+#: layouts/2_right_sidebars.php:31
+#: layouts/4_left_sidebars.php:21
+#: layouts/4_right_sidebars.php:21
+#: layouts/left_right_sidebars.php:31
+#: layouts/left_sidebar.php:18
+#: layouts/right_sidebar.php:18
+#: layouts/right_sidebar.php:28
+msgid "Share This"
+msgstr "Partager ceci"
+
+#: options/admin.options.php:420
+#: options/admin.options.php:515
+msgid "Transparent:"
+msgstr "Transparent:"
+
+#: options/admin.options.php:420
+#: options/admin.options.php:515
+msgid "Color:"
+msgstr "Couleur:"
+
+#: options/admin.options.php:1261
+#: options/admin.options.php:1300
+#: options/admin.options.php:1317
+#: options/admin.options.php:1335
+msgid "Show"
+msgstr "Montrer"
+
+#: options/admin.options.php:1261
+msgid "Link Text"
+msgstr "Text du Lien "
+
+#: options/option_descriptions.php:5
+msgid "Show Demo Data in Sidebars"
+msgstr "Montrer les données de démo dans la barre latérale"
+
+#: options/option_descriptions.php:6
+msgid "Show or not demo data in sidebars if there were no widgets added"
+msgstr "Montrer ou non les données de démo dans la sidebar si vous n'avez pas ajoutés de widgets"
+
+#: options/option_descriptions.php:9
+msgid "Sidebars on index page"
+msgstr "Barre latérale sur la page d'accueil"
+
+#: options/option_descriptions.php:10
+msgid "Select what sidebars must be displayed on index page. Every sidebar has the name same as its color. So there are folowing sidebars: Cyan, Green, Blue, Orange, Red"
+msgstr "Select what sidebars must be displayed on index page. Every sidebar has the name same as its color. So there are folowing sidebars: Cyan, Green, Blue, Orange, Red"
+
+#: options/option_descriptions.php:13
+msgid "Sidebars on single page"
+msgstr "Barre latérale sur une page"
+
+#, fuzzy
+msgid "Select what sidebars must be displayed on a single page. "
+msgstr "Select what sidebars must be displayed on a single page. "
+
+#: options/option_descriptions.php:17
+msgid "Sidebars on single post"
+msgstr "Barre latérale sur un simple post"
+
+#, fuzzy
+msgid "Select what sidebars must be displayed on a single post page."
+msgstr "Select what sidebars must be displayed on a single post page."
+
+#: options/option_descriptions.php:21
+msgid "Sidebars on category pages"
+msgstr "Barre latérale sur les pages catégories"
+
+#, fuzzy
+msgid "Select what sidebars must be displayed on a category page."
+msgstr "Select what sidebars must be displayed on a category page."
+
+#: options/option_descriptions.php:25
+msgid "Sidebars on tag pages"
+msgstr "Barre latérale sur les pages Tags"
+
+#, fuzzy
+msgid "Select what sidebars must be displayed on a tag page"
+msgstr "Select what sidebars must be displayed on a tag page"
+
+#: options/option_descriptions.php:29
+msgid "Sidebars on archive pages"
+msgstr "Barre latérale on archive pages"
+
+#, fuzzy
+msgid "Select what sidebars must be displayed on an archive page"
+msgstr "Select what sidebars must be displayed on an archive page"
+
+#: options/option_descriptions.php:33
+msgid "Sidebars on search results pages"
+msgstr "Barre latérale sur les pages de résultats de recherche"
+
+#, fuzzy
+msgid "Select what sidebars must be displayed on a search results page"
+msgstr "Select what sidebars must be displayed on a search results page"
+
+#: options/option_descriptions.php:37
+#, fuzzy
+msgid "Sidebars on \"Error 404 - Not Found\" pages"
+msgstr "Sidebars on \"Error 404 - Not Found\" pages"
+
+#: options/option_descriptions.php:38
+#, fuzzy
+msgid "Select what sidebars must be displayed on an error page"
+msgstr "Select what sidebars must be displayed on an error page"
+
+#: options/option_descriptions.php:41
+msgid "Sidebars on other pages"
+msgstr "Barre latérale sur les autres pages"
+
+#, fuzzy
+msgid "This layout will be applied for all other pages not listed in options above. E.g. this layout will be applied to custom taxonomy pages"
+msgstr "This layout will be applied for all other pages not listed in options above. E.g. this layout will be applied to custom taxonomy pages"
+
+#: options/option_descriptions.php:45
+msgid "Whole Page Width"
+msgstr "Largeur page entière"
+
+#: options/option_descriptions.php:46
+msgid "The Width of the entire page including sidebars. Enter a number and select a unit of measure."
+msgstr "La largeur de la page entière, y compris les barres latérales. Entrez un numéro et sélectionnez une unité de mesure."
+
+#: options/option_descriptions.php:49
+msgid "Blue Sidebar Width"
+msgstr "Largeur de la barre latérale bleue"
+
+#: options/option_descriptions.php:50
+msgid "Width of the Blue sidebar and its unit of measure"
+msgstr "Largeur de la barre latérale bleue et son unité de mesure"
+
+#: options/option_descriptions.php:53
+msgid "Cyan Sidebar Width"
+msgstr "Largeur de la barre latérale Cyan"
+
+#: options/option_descriptions.php:54
+msgid "Width of the Cyan sidebar and its unit of measure"
+msgstr "Largeur de la barre latérale Cyan et son unité de mesure"
+
+#: options/option_descriptions.php:57
+msgid "Green Sidebar Width"
+msgstr "Largeur de la barre latérale Verte"
+
+#: options/option_descriptions.php:58
+msgid "Width of the Green sidebar and its unit of measure"
+msgstr "Largeur de la barre latérale verte et son unité de mesure"
+
+#: options/option_descriptions.php:61
+msgid "Orange Sidebar Width"
+msgstr "Largeur de la barre latérale Orange"
+
+#, fuzzy
+msgid "Width of the Orange sidebar and its unit of measure.<br/>Please note that if you selected 4-sidebar layout the width will override the widths of cyan and green sidebars."
+msgstr "Largeur de la barre latérale Orange et son unité de mesure. <br/>Notez que si vous sélectionnez la disposition 4-sidebar la largeur écrasera les largeurs des barres cyan et verte."
+
+#: options/option_descriptions.php:65
+msgid "Sidebar Font"
+msgstr "Police Barre latérale"
+
+#: options/option_descriptions.php:66
+msgid "The font of common text in the sidebars"
+msgstr "La police du texte des barres latérales"
+
+#: options/option_descriptions.php:69
+msgid "Sidebar Link Color"
+msgstr "Couleur des liens de la barre latérale"
+
+#, fuzzy
+msgid "Color of links in the sidebars: regular and hovered"
+msgstr "La couleur des liens dans les barres latérales: regular and hovered"
+
+#: options/option_descriptions.php:73
+#, fuzzy
+msgid "Blogroll Link Description Color"
+msgstr "Blogroll Link Description Color"
+
+#: options/option_descriptions.php:74
+msgid "Color of link's descriptions in a Blogroll widget"
+msgstr "Color of link's descriptions in a Blogroll widget"
+
+#: options/option_descriptions.php:77
+#, fuzzy
+msgid "Column Divider"
+msgstr "Column Divider"
+
+#: options/option_descriptions.php:78
+#, fuzzy
+msgid "Define whether to show column (sidebars) divider or not. Selecting \"yes\" will separate sidebars and main content"
+msgstr "Préciser si vous souhaitez afficher la colonne (barre latérales) diviseur ou non. Choisir \"yes\" pour séparer les barres latérales et le contenu principal"
+
+#: options/option_descriptions.php:81
+#, fuzzy
+msgid "Sidebar Headings Font"
+msgstr "Polices des rubriques de la barre latérale"
+
+#: options/option_descriptions.php:82
+msgid "The font of headings in the sidebars"
+msgstr "La police des titres dans les barre latérales"
+
+#: options/option_descriptions.php:85
+msgid "Calendar Widget Font"
+msgstr "Police du widget Calendrier"
+
+#: options/option_descriptions.php:86
+msgid "The font of text in a Calendar Widget"
+msgstr "La police du texte du widget Calendrier"
+
+#: options/option_descriptions.php:89
+#, fuzzy
+msgid "Calendar Days of Week color"
+msgstr "Calendar Days of Week color"
+
+#: options/option_descriptions.php:90
+#, fuzzy
+msgid "The color of Day of Week in Calendar Widget: text color and background color"
+msgstr "La couleur du jour de la semaine dans le calendrier Widget: couleur du texte et la couleur de fond"
+
+#: options/option_descriptions.php:93
+msgid "Calendar Today Highlighting"
+msgstr "Calendar Today Highlighting"
+
+#, fuzzy
+msgid "Background color of current date and its border style and color in a Calendar Widget"
+msgstr "La couleur de fond de la date actuelle et son style de bordure et la couleur dans un Widget Calendrier"
+
+#: options/option_descriptions.php:97
+msgid "Show Demo Data in the Footer"
+msgstr "Afficher les données de démo dans le pied de page"
+
+#, fuzzy
+msgid "Show or not demo data in footer columns if there were no widgets added"
+msgstr "Afficher les données de démo ou non dans les colonnes de bas de page s'il n'y pas de widgets ajouté"
+
+#: options/option_descriptions.php:101
+msgid "Columns in The Footer"
+msgstr "Colonnes dans le pied de page"
+
+#, fuzzy
+msgid "Every column in the footer is a widget area. Their names are Blue, Green, Orange and Red Footer. You can add widgets on Appearance -> Widgets page"
+msgstr "Chaque colonne dans le pied de page est une zone de widget. Leurs noms sont bleu, vert, orange et rouge pied de page. Vous pouvez ajouter des widgets sur Apparence -> Widgets page"
+
+#: options/option_descriptions.php:105
+msgid "Equal Footer Columns"
+msgstr "Colonnes égales du pied de page"
+
+#, fuzzy
+msgid "Note that if you select YES, the followng options do not affect the appearance"
+msgstr "Notez que si vous choisissez OUI, les options suivantes n'affectent pas l'apparence"
+
+#: options/option_descriptions.php:109
+msgid "Blue Footer Column Width"
+msgstr "Largeur de colonne du pied de page bleu"
+
+#: options/option_descriptions.php:110
+#: options/option_descriptions.php:114
+#: options/option_descriptions.php:118
+#: options/option_descriptions.php:122
+msgid "Enter a number and select a unit of measure"
+msgstr "Entrez un numéro et sélectionnez une unité de mesure"
+
+#: options/option_descriptions.php:113
+msgid "Green Footer Column Width"
+msgstr "Largeur de colonne du pied de page vert"
+
+#: options/option_descriptions.php:117
+msgid "Orange Footer Column Width"
+msgstr "Largeur de colonne du pied de page orange"
+
+#: options/option_descriptions.php:121
+msgid "Red Footer Column Width"
+msgstr "Largeur de colonne du pied de page rouge"
+
+#: options/option_descriptions.php:125
+#, fuzzy
+msgid "Footer Background Color"
+msgstr "Couleur de fond de pied de page"
+
+#: options/option_descriptions.php:126
+#, fuzzy
+msgid "Background color of the footer"
+msgstr "La couleur de fond du pied de page"
+
+#: options/option_descriptions.php:129
+msgid "Text Font"
+msgstr "Police du texte"
+
+#: options/option_descriptions.php:130
+msgid "The general font of the site text"
+msgstr "La police principale du texte du site"
+
+#: options/option_descriptions.php:133
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: options/option_descriptions.php:134
+msgid "Body text color"
+msgstr "Couleur du corps du texte"
+
+#: options/option_descriptions.php:137
+msgid "Body Background Color"
+msgstr "Couleur du fond du body"
+
+#, fuzzy
+msgid "This is the background color of the entire web page"
+msgstr "Ceci est la couleur de fond de la page entière"
+
+#: options/option_descriptions.php:141
+msgid "Content Background Color"
+msgstr "Couleur de fond du contenu"
+
+#: options/option_descriptions.php:142
+msgid "This is the background color of content part of the web page"
+msgstr "Ceci est la couleur du fond de la partie content d'une page"
+
+#: options/option_descriptions.php:145
+msgid "Base Color"
+msgstr "Couleur de base"
+
+#, fuzzy
+msgid "Base Color of lines like menu and footer borders"
+msgstr "Couleur de base des lignes comme les bords de menu et pied de page"
+
+#: options/option_descriptions.php:149
+msgid "Show Blog Title And Description"
+msgstr "Montrer les titre et la description du blog"
+
+#, fuzzy
+msgid "You might want to hide the blog title and description when using full-width header image. Please note that the folowing option \"header font size\" is still meaningful - in this case it means header height"
+msgstr "Vous voudrez peut-être pour cacher le titre du blog et la description en utilisant l'image d'en-tête pleine largeur. Notez que l'option \"taille de la police d'en-tête\" est toujours utile - dans ce cas, elle désigne la hauteur d'en-tête"
+
+#: options/option_descriptions.php:153
+msgid "Header Font"
+msgstr "Police de l'entête"
+
+#: options/option_descriptions.php:154
+msgid "This font is used to display the blog title"
+msgstr "Cette police est utilisée pour afficher le titre du blog"
+
+#: options/option_descriptions.php:157
+msgid "Header Description Font"
+msgstr "Police de la description de l'entête"
+
+#: options/option_descriptions.php:158
+msgid "This font is used to display the blog description under the blog title"
+msgstr "Cette police est utilisée pour afficher la description du blog sous le titre du blog"
+
+#: options/option_descriptions.php:161
+#, fuzzy
+msgid "Header Title Left Padding"
+msgstr "Header Title Left Padding"
+
+#: options/option_descriptions.php:162
+msgid "If you want to place an image before (to the left of) the blog title, set the value to the width of the image. E.g. if your image width is 100px set the value to 100."
+msgstr "Si vous souhaitez placer une image avant (à gauche de) le titre du blog, définissez la valeur de la largeur de l'image. Par exemple, si la largeur de votre image est 100px définir la valeur à 100."
+
+#: options/option_descriptions.php:165
+#, fuzzy
+msgid "Header Title Top Padding"
+msgstr "Header Title Top Padding"
+
+#: options/option_descriptions.php:166
+msgid "If you want to have more space above the blog title, set a non-zero value."
+msgstr "Si vous souhaitez avoir plus d'espace au-dessus du titre du blog, définissez une valeur non nulle."
+
+#: options/option_descriptions.php:169
+msgid "Custom Blog Title"
+msgstr "Titre du blog personnalisé"
+
+#: options/option_descriptions.php:170
+msgid "This value will override your blog title and description in the header. The main purpose of the option is to let you design your blog title as you like. <b>HTML tags are allowed here. Be carefull with them!</b><br/>Leave the field blank to display standard blog title.<br/>Here is a small demo: <br/><img src=\"${template_url}/options/img/help/custom_blog_title.png\">"
+msgstr "Cette valeur va écraser votre la description et titre du blog du header. L'objectif principe de cette option est de vous laisser choisir votre titre de blog. <b>Les tags HTML sont autorisés ici. Faites attention avec ces tags</b><br/>Laissez ce champ vide pour afficher le titre standard du blog. <br/>voici une petite démo:<br/><img src=\"${template_url}/options/img/help/custom_blog_title.png\">"
+
+#: options/option_descriptions.php:173
+msgid "Header Image Size"
+msgstr "Taille de l'image d'entête"
+
+#: options/option_descriptions.php:174
+#: options/option_descriptions.php:177
+#, fuzzy
+msgid "Header Background Position CSS"
+msgstr "Header Background Position CSS"
+
+#, fuzzy
+msgid "You can select a header image at Appearance -> Header. The image  will be placed according to this option. The option value will be placed right after \"<a href=\"http://www.w3schools.com/css/pr_background-position.asp\">background-position</a>:\" in #header css. To place the image to the left of your blog title, set the value to \"left bottom\"."
+msgstr "You can select a header image at Appearance -> Header. The image  will be placed according to this option. The option value will be placed right after \"<a href=\"http://www.w3schools.com/css/pr_background-position.asp\">background-position</a>:\" in #header css. To place the image to the left of your blog title, set the value to \"left bottom\"."
+
+#: options/option_descriptions.php:181
+msgid "Header Background Color"
+msgstr "Couleur de fond de l'entête"
+
+#: options/option_descriptions.php:182
+msgid "This is the background color of header of the web page (where blog title and description placed)"
+msgstr "C'est la couleur de fond de l'en-tête de la page Web (o¨ le titre du blog et la description sont positionnés)"
+
+#: options/option_descriptions.php:185
+msgid "Show Top Menu"
+msgstr "Montrer le menu du haut"
+
+#: options/option_descriptions.php:186
+msgid "If you set the option to NO, the top menu will be hidden"
+msgstr "Si vous positionnez cette option à NO, le menu du haut sera caché"
+
+#: options/option_descriptions.php:189
+msgid "Top Menu Font"
+msgstr "Police du menu du haut"
+
+#: options/option_descriptions.php:190
+msgid "The font of top menu"
+msgstr "La police du menu du haut"
+
+#: options/option_descriptions.php:193
+msgid "Top Menu Height"
+msgstr "Largeur du menu du haut"
+
+#: options/option_descriptions.php:197
+msgid "Top Menu Font Color"
+msgstr "Couleur de la police du menu du haut"
+
+#: options/option_descriptions.php:198
+msgid "Top Menu Text Color: regular and hovered"
+msgstr "Couleur du texte du menu du haut: normale et survol"
+
+#: options/option_descriptions.php:201
+msgid "Show Breadcrumbs"
+msgstr "Montrer le fil d'ariane"
+
+#: options/option_descriptions.php:202
+msgid "Select YES to show entire path (categories) to current single post"
+msgstr "Sélectionnez YES pour montrer le chemin complet (catégories) vers le post courant simple"
+
+#: options/option_descriptions.php:205
+msgid "Breadcrumbs Font"
+msgstr "Police du Fil d'ariane"
+
+#: options/option_descriptions.php:206
+msgid "Breadcrumbs is the navigation path to a current post. Select font to use for this."
+msgstr "Le fil d'ariane est la chemin de navigation vers le post courant. Sélectionnez la police à utiliser."
+
+#: options/option_descriptions.php:209
+msgid "Breadcrumbs Color"
+msgstr "Couleur du fil d'ariane"
+
+#: options/option_descriptions.php:210
+msgid "Color of Breadcrumbs (navigation path)"
+msgstr "Couleur du fil d'ariane (chemin de navigation)"
+
+#: options/option_descriptions.php:213
+msgid "Top Menu Background Color"
+msgstr "Couleur de fon du menu du haut"
+
+#: options/option_descriptions.php:214
+msgid "Background color of the top menu"
+msgstr "Couleur de fond du menu du haut"
+
+#: options/option_descriptions.php:217
+msgid "Top Menu Current Item Color"
+msgstr "Couleur de l'élement courant du menu du haut"
+
+#: options/option_descriptions.php:218
+msgid "Text and Background color of current item of the Top menu"
+msgstr "Couleur du texte et du fond de l'élement courant du menu du haut"
+
+#: options/option_descriptions.php:221
+msgid "Top Submenu Font"
+msgstr "Police de sous-menu du haut"
+
+#: options/option_descriptions.php:222
+msgid "The Font of submenu items"
+msgstr "La police des éléments de sous-menu"
+
+#: options/option_descriptions.php:225
+msgid "Width of Top Menu Submenus"
+msgstr "Largeur des sous-menus du menu du haut"
+
+#: options/option_descriptions.php:226
+msgid "Width of the top submenus in pixels"
+msgstr "Largeuren pixels des sous-menus du haut"
+
+#: options/option_descriptions.php:229
+msgid "Headings Font"
+msgstr "Police d'en-tête"
+
+#: options/option_descriptions.php:230
+msgid "Headings font is used to dispalay headings on single post/page (<code>&lt;h1&gt;</code> tag) and on post list pages (<code>&lt;h2&gt;</code> tag)"
+msgstr "La police d'en-tête est utilisée pour afficher l'en-tête sur les posts/page simple (<code>&lt;h1&gt;</code> tag) et sur les pages list (<code>&lt;h2&gt;</code> tag)"
+
+#: options/option_descriptions.php:233
+msgid "Headings Color"
+msgstr "Couleur de l'en-tête"
+
+#: options/option_descriptions.php:234
+msgid "Headings color"
+msgstr "Couleur de l'en-tête"
+
+#: options/option_descriptions.php:237
+msgid "Headings Hover Color"
+msgstr "Couleur de survol de l'en-tête"
+
+#: options/option_descriptions.php:238
+msgid "Hovered headings color"
+msgstr "Couleur de survol de l'en-tête"
+
+#: options/option_descriptions.php:241
+msgid "H2 Headings Font"
+msgstr "Police de l'en-tête H2"
+
+#: options/option_descriptions.php:245
+msgid "H2 Headings Color"
+msgstr "Couleur de l'en-tête H2"
+
+#: options/option_descriptions.php:246
+msgid "H2 Headings Color is used on single post/page (<code>&lt;h2&gt;</code> tag)"
+msgstr " Couleur de l'en-tête H2 est utilisée sur les posts/page simple (<code>&lt;h2&gt;</code> tag)"
+
+#: options/option_descriptions.php:249
+msgid "H3 Headings Font"
+msgstr "Police de l'en-tête H3"
+
+#: options/option_descriptions.php:253
+msgid "H3 Headings Color"
+msgstr "Couleur de l'en-tête H3"
+
+#: options/option_descriptions.php:254
+msgid "H3 Headings Color is used on single post/page (<code>&lt;h3&gt;</code> tag)"
+msgstr " Couleur de l'en-tête H3 est utilisée sur les posts/page simple (<code>&lt;h2&gt;</code> tag)"
+
+#: options/option_descriptions.php:257
+msgid "H4 Headings Font"
+msgstr "Police de l'en-tête H4"
+
+#: options/option_descriptions.php:261
+msgid "H4 Headings Color"
+msgstr "Couleur de l'en-tête H4"
+
+#: options/option_descriptions.php:262
+msgid "H4 Headings Color is used on single post/page (<code>&lt;h4&gt;</code> tag)"
+msgstr " Couleur de l'en-tête H4 est utilisée sur les posts/page simple (<code>&lt;h2&gt;</code> tag)"
+
+#: options/option_descriptions.php:265
+msgid "Show Post Info"
+msgstr "Montre les informations des posts"
+
+#: options/option_descriptions.php:266
+msgid "Show or not date, author and categories under post title"
+msgstr "Montre ou non date, auteur, catégories sous le titre du post"
+
+#: options/option_descriptions.php:269
+msgid "Normal Thumbnail Size"
+msgstr "Taille de miniature normale"
+
+#, fuzzy
+msgid "Width and height of post thumbnail images in pixels. They are visible in post lists like index page, category pages etc.<br/><b>Important</b>: Due to WordPress peculiarity you should regenerate <b>all</b> thumbnails on the theme install and on every change of these values.<br/><b>Tip</b>: you can use plugins like <a href=\"http://wordpress.org/extend/plugins/regenerate-thumbnails/\">Regenerate Thumbnails</a> and <a href=\"http://wordpress.org/extend/plugins/ajax-thumbnail-rebuild/\">AJAX Thumbnail Rebuild</a> to regenerate thumbnails"
+msgstr "Largeur et hauteur des images miniatures de posts en pixels. Ils sont visible dans les listes de posts comme sur la page d'index, catégories etc... <br/><b>Important</b>: Du aux particularités de Wordpress vous devez regénérer <b>toutes<b/> les miniatures de l'install du thème à chaque changement de cette valeur. <br/><b>Astuce</b>:  Vous pouvez utiliser un plugin comme <a href=\"http://wordpress.org/extend/plugins/regenerate-thumbnails/\">Regenerate Thumbnails</a> et <a href=\"http://wordpress.org/extend/plugins/ajax-thumbnail-rebuild/\">AJAX Thumbnail Rebuild</a> pour regénérer les miniatures."
+
+#: options/option_descriptions.php:273
+msgid "Column Thumbnail Size"
+msgstr "Taille de la colonne miniature"
+
+#, fuzzy
+msgid "Width and height (in pixels) of post thumbnail images displayed in columns on the index page. See \"Normal Thumbnail Size\" option help for details.<br/>Please note that the width correlates with the \"Show Thumbnail Border\" option and column width on index page (calculated depending on page width, sidepar widths and column count). So first you should set those options, then see column width. Afterwards set this option. If you selected to Show Thumbnail Border you should decrease column width by 10"
+msgstr "Width and height (in pixels) of post thumbnail images displayed in columns on the index page. See \"Normal Thumbnail Size\" option help for details.<br/>Please note that the width correlates with the \"Show Thumbnail Border\" option and column width on index page (calculated depending on page width, sidepar widths and column count). So first you should set those options, then see column width. Afterwards set this option. If you selected to Show Thumbnail Border you should decrease column width by 10"
+
+#: options/option_descriptions.php:277
+msgid "Show Thumbnail Border"
+msgstr "Montre les bordures de miniatures"
+
+#: options/option_descriptions.php:278
+msgid "Whether show border around thumbnails or not"
+msgstr "Montrer la bordure des miniatures oui/non"
+
+#: options/option_descriptions.php:281
+#, fuzzy
+msgid "Post Link"
+msgstr "Post Link"
+
+#, fuzzy
+msgid "Color and text decoration for regular post links"
+msgstr "Couleur et text decoration pour les posts links normaux"
+
+#: options/option_descriptions.php:285
+#, fuzzy
+msgid "Post Link Visited"
+msgstr "Post Link Visited"
+
+#, fuzzy
+msgid "Color and text decoration for visited post links"
+msgstr "Color and text decoration for visited post links"
+
+#: options/option_descriptions.php:289
+msgid "Preformatted Text Block Color"
+msgstr "Preformatted Text Block Color"
+
+#: options/option_descriptions.php:290
+msgid "Border Color and Background Color of the preformatted text (<code>&lt;pre&gt;</code> tag)"
+msgstr "Couleur des la bordure et de fond du texte préformatté (<code>&lt;pre&gt;</code> tag)"
+
+#: options/option_descriptions.php:293
+#, fuzzy
+msgid "Blockquote Color"
+msgstr "Couleur Blockquote"
+
+#, fuzzy
+msgid "Border Color and Background Color of the Blockquote text (<code>&lt;blockquote&gt;</code> tag)"
+msgstr "Couleur des la bordure et de fond du texte Blockquote (<code>&lt;blockquote&gt;</code> tag)"
+
+#: options/option_descriptions.php:297
+#, fuzzy
+msgid "Show \"Comments off\" text"
+msgstr "Show \"Comments off\" text"
+
+#: options/option_descriptions.php:298
+#, fuzzy
+msgid "Show or not \"Comments off\" text if comments are closed."
+msgstr "Show or not \"Comments off\" text if comments are closed."
+
+#: options/option_descriptions.php:301
+#, fuzzy
+msgid "Dividers color"
+msgstr "Dividers color"
+
+#: options/option_descriptions.php:302
+msgid "The color affects various kinds of dividers: <code>&lt;hr&gt;</code> tag, post info panels top border, comments borders etc."
+msgstr "The color affects various kinds of dividers: <code>&lt;hr&gt;</code> tag, post info panels top border, comments borders etc."
+
+#: options/option_descriptions.php:305
+msgid "Show post's author"
+msgstr "Montrer l'auteur du post"
+
+#: options/option_descriptions.php:306
+msgid "Show or not post's author"
+msgstr "Montrer ou non l'auteur du post"
+
+#: options/option_descriptions.php:309
+#, fuzzy
+msgid "Table Font"
+msgstr "Police des Tableaux"
+
+#: options/option_descriptions.php:313
+#, fuzzy
+msgid "Show Allowed Tags Below Comment Box"
+msgstr "Show Allowed Tags Below Comment Box"
+
+#: options/option_descriptions.php:314
+#, fuzzy
+msgid "Show or not tags (like <code>&lt;a href=\"\" title=\"\"&gt;</code>) allowed in comments"
+msgstr "Show or not tags (like <code>&lt;a href=\"\" title=\"\"&gt;</code>) allowed in comments"
+
+#: options/option_descriptions.php:317
+msgid "Avatar size in comments"
+msgstr "Taille de l'avatar dans les commentaires"
+
+#: options/option_descriptions.php:318
+msgid "Avatar size in comments (in pixels)"
+msgstr "Taille de l'avatar dans les commentaires (en pixels)"
+
+#: options/option_descriptions.php:321
+msgid "Comments Metadata Font"
+msgstr "Police des métadonnées des commentaires"
+
+#: options/option_descriptions.php:322
+msgid "The font that will be used to display comment's author, date and action links"
+msgstr "La police qui sera utilisée pour afficher les commentaires, date, et liens d'action"
+
+#: options/option_descriptions.php:325
+msgid "Comment metadata color"
+msgstr "Couleur des métadonnées des commentaires"
+
+#: options/option_descriptions.php:326
+#, fuzzy
+msgid "Color of permanent links to comments and \"edit\" links color"
+msgstr "Color of permanent links to comments and \"edit\" links color"
+
+#: options/option_descriptions.php:329
+#, fuzzy
+msgid "Top level comment border"
+msgstr "Top level comment border"
+
+#: options/option_descriptions.php:330
+#, fuzzy
+msgid "Define whether show border for the top level comment or not. Set its color"
+msgstr "Define whether show border for the top level comment or not. Set its color"
+
+#: options/option_descriptions.php:333
+msgid "Commenter Font"
+msgstr "Police des commentaires"
+
+#: options/option_descriptions.php:334
+msgid "The font that will be used to display comment's author."
+msgstr "La police qui sera utilisée pour afficher l'auteur des commentaires"
+
+#: options/option_descriptions.php:337
+#, fuzzy
+msgid "Color of links to commenter websites"
+msgstr "Color of links to commenter websites"
+
+#, fuzzy
+msgid "Regular and hovered colors of link to website of the comment author"
+msgstr "Regular and hovered colors of link to website of the comment author"
+
+#: options/option_descriptions.php:341
+#, fuzzy
+msgid "Post Author Link Color"
+msgstr "Post Author Link Color"
+
+#: options/option_descriptions.php:342
+msgid "Color of link to the website of the post author"
+msgstr "Couleur du lien du site web de l'auteur du post"
+
+#: options/option_descriptions.php:345
+#, fuzzy
+msgid "Color of Comments by the Post Author"
+msgstr "Color of Comments by the Post Author"
+
+#: options/option_descriptions.php:346
+#, fuzzy
+msgid "You can set a bright color to make post author comments more noticeable"
+msgstr "You can set a bright color to make post author comments more noticeable"
+
+#: options/option_descriptions.php:349
+#: options/option_descriptions.php:350
+#, fuzzy
+msgid "Background Color of comment author and metadata bar"
+msgstr "Background Color of comment author and metadata bar"
+
+#: options/option_descriptions.php:353
+msgid "Color of reply link"
+msgstr "Couleur du lien répondre"
+
+#: options/option_descriptions.php:357
+msgid "Background Color of comment reply link"
+msgstr "Couleur de fond du lien répondre commentaire"
+
+#: options/option_descriptions.php:361
+msgid "Border Color of comment reply link"
+msgstr "Couleur d bordure du lien répondre commentaire"
+
+#: options/option_descriptions.php:365
+msgid "Image Border"
+msgstr "Bordure de l'image"
+
+#: options/option_descriptions.php:366
+msgid "Border color and corner radius for images in posts when using captions or <code>wp-caption</code> class"
+msgstr "Border color and corner radius for images in posts when using captions or <code>wp-caption</code> class"
+
+#: options/option_descriptions.php:369
+#, fuzzy
+msgid "Image Caption Font"
+msgstr "Image Caption Font"
+
+#: options/option_descriptions.php:373
+#, fuzzy
+msgid "Image Caption Text Color"
+msgstr "Image Caption Text Color"
+
+#: options/option_descriptions.php:377
+#, fuzzy
+msgid "Page Box"
+msgstr "Page Box"
+
+#: options/option_descriptions.php:381
+#, fuzzy
+msgid "Current Page Box"
+msgstr "Current Page Box"
+
+#: options/option_descriptions.php:385
+#, fuzzy
+msgid "Page Box Hovered"
+msgstr "Page Box Hovered"
+
+#: options/option_descriptions.php:389
+#, fuzzy
+msgid "Pageination Inactive Button"
+msgstr "Pageination Inactive Button"
+
+#: options/option_descriptions.php:393
+msgid "Use 3rd Party Plugin"
+msgstr "Utiliser un plugin tierce"
+
+#: options/option_descriptions.php:394
+msgid ""
+"Set the option to \"Yes\" if you use 3rd party SEO plugins like <a href=\"http://wordpress.org/extend/plugins/all-in-one-seo-pack/\">All in One SEO Pack</a> plugin. Note that if you select \"Yes\" the below options will not work.<br/>Also if \"Use 3rd Party SEO Plugin\" is set to \"Yes\" The Clear Line doesn't output at all:\n"
+"\n"
+"<pre>   &lt;title>\n"
+"   &lt;meta name=\"description\">\n"
+"   &lt;meta name=\"keywords\"></pre>\n"
+"All these tags are supposed to be outputted by a 3rd party SEO plugin. So if you don't configure the plugin, the title and meta tags are empty."
+msgstr ""
+"Positionnez l'option à \"Yes\" si vous utilisez un plugin SEO tierce comme <a href=\"http://wordpress.org/extend/plugins/all-in-one-seo-pack/\">All in One SEO Pack</a> plugin. Notez que si vous sélectionnez \"Yes\" les options suivantes ne fonctionneront pas.<br/>Aussi si  \"Use 3rd Party SEO Plugin\" est positionné à \"Yes\" Le Clear Line n'écrira rien du tout:\n"
+"\n"
+"<pre>   &lt;title>\n"
+"   &lt;meta name=\"description\">\n"
+"   &lt;meta name=\"keywords\"></pre>\n"
+"Tous ces tags sont supposés être écris par le plugin SEO tierce. Donc si vous ne configurez pas le plugin, le titre et les meta tags seront vide."
+
+#: options/option_descriptions.php:402
+msgid "Home Title"
+msgstr "Titre de la page d'accueil"
+
+#: options/option_descriptions.php:403
+msgid "This text will be placed into <code>&lt;title&gt;</code> tag"
+msgstr "Le texte sera placé dans le tag <code>&lt;title&gt;</code>"
+
+#: options/option_descriptions.php:406
+msgid "Home Description"
+msgstr "Description de la page d'accueil"
+
+#: options/option_descriptions.php:407
+msgid "This text will be placed into <code>&lt;meta name=\"description\"&gt;</code> tag"
+msgstr "Le texte sera placé dans le tag <code>&lt;meta name=\"description\"&gt;</code>"
+
+#: options/option_descriptions.php:410
+msgid "Home Keywords"
+msgstr "Mots-clés de la page d'accueil"
+
+#: options/option_descriptions.php:411
+msgid "This text will be placed into <code>&lt;meta name=\"keywords\"&gt;</code> tag"
+msgstr "Le texte sera placé dans le tag <code>&lt;meta name=\"keywords\"&gt;</code>"
+
+#: options/option_descriptions.php:414
+msgid "Post Title Format"
+msgstr "Format du titre du post"
+
+#: options/option_descriptions.php:415
+msgid "Format of <code>&lt;title&gt;</code> tag on single post page.<br/>Available shortcodes are: %blog_title%, %blog_description%, %category%, %post_title%"
+msgstr "Format du tag <code>&lt;title&gt;</code> sur les page de post simple. <br/>Les raccourcis disponibles sont %blog_title%, %blog_description%, %category%, %post_title%"
+
+#: options/option_descriptions.php:418
+msgid "Page Title Format"
+msgstr "Format du titre de page"
+
+#: options/option_descriptions.php:419
+msgid "Format of <code>&lt;title&gt;</code> tag on single page.<br/>Available shortcodes are: %blog_title%, %blog_description%, %page_title%"
+msgstr "Format du tag <code>&lt;title&gt;</code> sur les page  simple. <br/>Les raccourcis disponibles sont %blog_title%, %blog_description%, %page_title%"
+
+#: options/option_descriptions.php:422
+msgid "Category Title Format"
+msgstr "Format du titre Categorie"
+
+#: options/option_descriptions.php:423
+msgid "Format of <code>&lt;title&gt;</code> tag on category page.<br/>Available shortcodes are: %blog_title%, %blog_description%, %category%, %category_description%"
+msgstr "Format du tag <code>&lt;title&gt;</code> sur les page  catégories. <br/>Les raccourcis disponibles sont %blog_title%, %blog_description%, %category%, %category_description%"
+
+#: options/option_descriptions.php:426
+msgid "Tag Title Format"
+msgstr "Format du titre Tag"
+
+#: options/option_descriptions.php:427
+msgid "Format of <code>&lt;title&gt;</code> tag on tag page.<br/>Available shortcodes are: %blog_title%, %blog_description%, %tag%"
+msgstr "Format du tag <code>&lt;title&gt;</code> sur les page  Tag. <br/>Les raccourcis disponibles sont %blog_title%, %blog_description%, %tag%"
+
+#: options/option_descriptions.php:430
+#, fuzzy
+msgid "Column Count"
+msgstr "Column Count"
+
+#, fuzzy
+msgid "Column count of posts on index page. Set it to 0 or 1 to show common post list"
+msgstr "Column count of posts on index page. Set it to 0 or 1 to show common post list"
+
+#: options/option_descriptions.php:434
+#, fuzzy
+msgid "Column Rows"
+msgstr "Column Rows"
+
+#, fuzzy
+msgid "Rows count of columnar posts on index page."
+msgstr "Rows count of columnar posts on index page."
+
+#: options/option_descriptions.php:438
+#, fuzzy
+msgid "Show in columns post from this category"
+msgstr "Show in columns post from this category"
+
+#: options/option_descriptions.php:439
+msgid "If you want to dispalay in columns only posts from one category (e.g. featured posts) select the category here"
+msgstr "Si vous souhaitez afficher en colonne seulement les posts d'une catégorie (exple:  featured posts) sélectionnez la catégorie ici"
+
+#: options/option_descriptions.php:442
+#, fuzzy
+msgid "Show Latest Post Before Columns"
+msgstr "Show Latest Post Before Columns"
+
+#, fuzzy
+msgid "Whether show the latest post before columnar posts or after them."
+msgstr "Whether show the latest post before columnar posts or after them."
+
+#: options/option_descriptions.php:446
+msgid "Show excerpts on"
+msgstr "Montrer les extraits sur"
+
+#: options/option_descriptions.php:450
+#: options/option_descriptions.php:451
+msgid "Excerpts Length"
+msgstr "Longueur de l'extrait"
+
+#: options/option_descriptions.php:454
+msgid "Show \"More\" link for excerpts"
+msgstr "Montre le lien \"More\" pour les extraits"
+
+#: options/option_descriptions.php:455
+msgid "This option defines whether show \"more\" link or not when showing post excerpts"
+msgstr "Cette option défini si le lien \"more\" est affiché ou non lors de l'affichage des extraits"
+
+#: options/option_descriptions.php:458
+msgid "Show Content if no excerpt was provided"
+msgstr "Montre le contenu s'il n'y a pas d'extrait fourni"
+
+#: options/option_descriptions.php:459
+msgid "The option defines what to display if <b>Show Post Excerpts</b> is set to \"Yes\" but no excerpt is provided for a post:<br/>- if \"No\": generate excerpt from the post content. If a thumbnail is set for the post, it will be displayed;<br/>- if \"Yes\": show content of the post. You can use &lt;!--more--&gt; tag to shorten oputput.<br/><br/>Please note that <b>columnar posts are always displayed as excerpts</b> regardless of the option value.<br/>"
+msgstr "L'option défini ce qu'il faut afficher si <b>Montre les extraits de post</b> est positionné à \"Yes\" mais qu'aucun extrait n'est fourni pour le post:<br/>- Si \"No\": générer un extrait à partir du contenu du post. Si une miniature est positionnée pour le post, elle sera affichée;<br/>- Si \"Yes\": montre le contenu du post. Vous pouvez utiliser &lt;!--more--&gt; tag pour raccourcir la sortie.<br/><br/>Notez que <b> les posts en colonne sont toujours affichés en extrait</b> quelque soit la valeur de l'option.<br/>"
+
+#: options/option_descriptions.php:462
+#, fuzzy
+msgid "Show Post Info in Columns"
+msgstr "Show Post Info in Columns"
+
+#, fuzzy
+msgid "Whether show post date and categories of columnar posts"
+msgstr "Whether show post date and categories of columnar posts"
+
+#: options/option_descriptions.php:466
+#, fuzzy
+msgid "Social Buttons Theme"
+msgstr "Social Buttons Theme"
+
+#, fuzzy
+msgid ""
+"You can add your own themes in three quite simple steps:<br/>1. Upload your images of the buttons to /clear-line/img/social/&lt;<i>new_theme_folder</i>&gt;/\n"
+"Please note that the names of the files must be the same as those in the folder \"grey\"<br/>\n"
+"2. open file /options/value_set.php and add the line marked red here: <pre>'SOCIAL_THEME' => array(\n"
+"\t'values'=>array(\n"
+"\t\t'green-jelly-icons' =>__('Green jelly',THEME_DOMAIN),\n"
+"\t\t'grey'\t\t\t=>__('Grey',THEME_DOMAIN),\n"
+"\t\t<font style=\"color:red\">'new_theme_folder'\t=>__('Your theme name',THEME_DOMAIN),</font>\n"
+"\t),</pre>\n"
+"3. Save and upload to your hosting<br/>\n"
+"(4). Send me images and theme name, I'll include the theme to the next release"
+msgstr ""
+"You can add your own themes in three quite simple steps:<br/>1. Upload your images of the buttons to /clear-line/img/social/&lt;<i>new_theme_folder</i>&gt;/\n"
+"Please note that the names of the files must be the same as those in the folder \"grey\"<br/>\n"
+"2. open file /options/value_set.php and add the line marked red here: <pre>'SOCIAL_THEME' => array(\n"
+"\t'values'=>array(\n"
+"\t\t'green-jelly-icons' =>__('Green jelly',THEME_DOMAIN),\n"
+"\t\t'grey'\t\t\t=>__('Grey',THEME_DOMAIN),\n"
+"\t\t<font style=\"color:red\">'new_theme_folder'\t=>__('Your theme name',THEME_DOMAIN),</font>\n"
+"\t),</pre>\n"
+"3. Save and upload to your hosting<br/>\n"
+"(4). Send me images and theme name, I'll include the theme to the next release"
+
+#: options/option_descriptions.php:479
+msgid "Sharing Buttons on Blue Sidebar"
+msgstr "Boutons de partage sur la barre latérale bleue"
+
+#: options/option_descriptions.php:483
+msgid "Sharing Buttons on Orange Sidebar"
+msgstr "Boutons de partage sur la barre latérale orange"
+
+#: options/option_descriptions.php:487
+msgid "Sharing Buttons on Green Sidebar"
+msgstr "Boutons de partage sur la barre latérale verte"
+
+#: options/option_descriptions.php:491
+msgid "Show RSS Button at top of the page"
+msgstr "Montre le bouton RSS en haut de la page"
+
+#: options/options.php:450
+msgid "none"
+msgstr "aucun(e)"
+
+#: options/options.php:818
+msgid "Clear Line Theme Options"
+msgstr "Options du thème Clear Line"
+
+#: options/options_categories.php:7
+msgid "About"
+msgstr "A propos"
+
+#: options/options_categories.php:8
+#, fuzzy
+msgid ""
+"<h1>Clear Line Theme Options</h1>\n"
+"\t\tThank you for using the theme!<br/>\n"
+"\t\tThe Clear Line Theme is a clear and very lightweight theme with ample opportunities of customization. \n"
+"\t\tAs for now the theme contains ${option_count['full-fledged']} full-fledged options that consist of ${option_count['sub-options']} sub-options.\n"
+"\t\tHere are some tips that can help you to understend them better.\n"
+"\n"
+"\t\t<h2>Translate the theme</h2>\n"
+"\t\tThe theme is translation ready now! You can translate it and your translation will be available in the next theme release!<br/>\n"
+"\t\tPlease read <a href=\"http://vatuma.com/wordpress-themes/clear-line/translation\">instructions</a> for details.\n"
+"\t\t\n"
+"\t\t<h2>Getting help</h2>\n"
+"\t\t\n"
+"\t\tTo get help on a theme option just click it's title:<br/><br/>\n"
+"\t\t<img src=\"${template_url}/options/img/help/header_decs_option.gif\"/>\n"
+"\t\t\n"
+"\t\t<h2>Inheritance</h2>\n"
+"\t\t\n"
+"\t\tThe unique feature of the option page is the options inheritance. \n"
+"\t\tWith this feature, options can be set to their own values or be inherited from another \"parent\" option.\n"
+"\t\tThanks to the inheritance, you can change color scheme (e.g. green to blue) by changing only three options.\n"
+"\t\t<br/>\n"
+"\t\tThe following picture explains how it works<br/><br/>\n"
+"\t\t<img src=\"${template_url}/options/img/help/inherited_option.gif\"/>\n"
+"\t\t<br/><br/>\n"
+"\t\tNote that you can create chains of inherited options.<br/>\n"
+"\t\t\n"
+"\t\t<h2>Support</h2>\n"
+"\t\t\n"
+"\t\tYou can ask questions, report bugs, request a feature or new options at the <a href=\"http://vatuma.com/support/\" target=\"_blank\">Support Forum</a>"
+msgstr ""
+"<h1>Clear Line Theme Options</h1>\n"
+"\t\tThank you for using the theme!<br/>\n"
+"\t\tThe Clear Line Theme is a clear and very lightweight theme with ample opportunities of customization. \n"
+"\t\tAs for now the theme contains ${option_count['full-fledged']} full-fledged options that consist of ${option_count['sub-options']} sub-options.\n"
+"\t\tHere are some tips that can help you to understend them better.\n"
+"\n"
+"\t\t<h2>Translate the theme</h2>\n"
+"\t\tThe theme is translation ready now! You can translate it and your translation will be available in the next theme release!<br/>\n"
+"\t\tPlease read <a href=\"http://vatuma.com/wordpress-themes/clear-line/translation\">instructions</a> for details.\n"
+"\t\t\n"
+"\t\t<h2>Getting help</h2>\n"
+"\t\t\n"
+"\t\tTo get help on a theme option just click it's title:<br/><br/>\n"
+"\t\t<img src=\"${template_url}/options/img/help/header_decs_option.gif\"/>\n"
+"\t\t\n"
+"\t\t<h2>Inheritance</h2>\n"
+"\t\t\n"
+"\t\tThe unique feature of the option page is the options inheritance. \n"
+"\t\tWith this feature, options can be set to their own values or be inherited from another \"parent\" option.\n"
+"\t\tThanks to the inheritance, you can change color scheme (e.g. green to blue) by changing only three options.\n"
+"\t\t<br/>\n"
+"\t\tThe following picture explains how it works<br/><br/>\n"
+"\t\t<img src=\"${template_url}/options/img/help/inherited_option.gif\"/>\n"
+"\t\t<br/><br/>\n"
+"\t\tNote that you can create chains of inherited options.<br/>\n"
+"\t\t\n"
+"\t\t<h2>Support</h2>\n"
+"\t\t\n"
+"\t\tYou can ask questions, report bugs, request a feature or new options at the <a href=\"http://vatuma.com/support/\" target=\"_blank\">Support Forum</a>"
+
+#: options/options_categories.php:45
+msgid "General"
+msgstr "Général"
+
+#: options/options_categories.php:49
+#, fuzzy
+msgid "Header"
+msgstr "Header"
+
+#: options/options_categories.php:53
+msgid "Navigation"
+msgstr "Navigation"
+
+#: options/options_categories.php:57
+msgid "Sidebars"
+msgstr "Barre latérale"
+
+#: options/options_categories.php:61
+msgid "Footer"
+msgstr "Pied de page"
+
+#: options/options_categories.php:65
+msgid "Post List"
+msgstr "Liste de posts"
+
+#: options/options_categories.php:69
+msgid "Post"
+msgstr "Post"
+
+#: options/options_categories.php:73
+msgid "Social"
+msgstr "Social"
+
+#: options/options_categories.php:77
+msgid "Headings"
+msgstr "En-tête"
+
+#: options/options_categories.php:81
+msgid "Comments"
+msgstr "Commentaires"
+
+#: options/options_categories.php:85
+msgid "Images"
+msgstr "Images"
+
+#: options/options_categories.php:89
+msgid "Pagination"
+msgstr "Pagination"
+
+#: options/options_categories.php:93
+msgid "SEO"
+msgstr "SEO"
+
+#: options/value_sets.php:12
+msgid "Yes"
+msgstr "Oui"
+
+#: options/value_sets.php:13
+msgid "No"
+msgstr "Non"
+
+#: options/value_sets.php:40
+msgid "No sidebars"
+msgstr "Pas de barre latérale"
+
+#: options/value_sets.php:41
+msgid "Right sidebar"
+msgstr "Barre latérale droite"
+
+#: options/value_sets.php:42
+msgid "Left sidebar"
+msgstr "Barre latérale gauche"
+
+#: options/value_sets.php:43
+#, fuzzy
+msgid "Left and right sidebars"
+msgstr "Barre latérales gauche et droite"
+
+#: options/value_sets.php:44
+msgid "Two sidebars at the left"
+msgstr "Deux barres latérales à gauche"
+
+#: options/value_sets.php:45
+msgid "Two sidebars at the right"
+msgstr "Deux barres latérales à droite"
+
+#: options/value_sets.php:46
+msgid "Three or four sidebars at the left"
+msgstr "Trois ou quatre barres latérales à gauche"
+
+#: options/value_sets.php:47
+msgid "Three or four sidebars at the right"
+msgstr "Trois ou quatre barres latérales à droite"
+
+#: options/value_sets.php:60
+msgid "One column in the footer"
+msgstr "Une colonne dans le bas de page"
+
+#: options/value_sets.php:61
+msgid "Two columns in the footer"
+msgstr "Deux colonnes dans le bas de page"
+
+#: options/value_sets.php:62
+msgid "Three columns in the footer"
+msgstr "Trois colonnes dans le bas de page"
+
+#: options/value_sets.php:63
+msgid "Four columns in the footer"
+msgstr "Quatre colonnes dans le bas de page"
+
+#: options/value_sets.php:177
+msgid "Latest Posts"
+msgstr "Derniers Sujets"
+
+#: options/value_sets.php:178
+#, fuzzy
+msgid "Selected Posts Only"
+msgstr "Selected Posts Only"
+
+#: options/value_sets.php:179
+#, fuzzy
+msgid "Selected Pages Only"
+msgstr "Selected Pages Only"
+
+#: options/value_sets.php:205
+#, fuzzy
+msgid "Green jelly"
+msgstr "Green jelly"
+
+#: options/value_sets.php:206
+msgid "Grey"
+msgstr "Gris"
+
+#: options/value_sets.php:226
+msgid "Under post title, at the left of excerpt"
+msgstr "Sous le titre du post, à gauche de l'extrait"
+
+#: options/value_sets.php:227
+msgid "At the left of post title and excerpt"
+msgstr "A gauche du titre du post et de l'extrait"
+
+#: search.php:11
+#, php-format
+msgid "Search results for %s"
+msgstr "Résultats de recherche pour %s"
+
+#: single.php:10
+msgid "Goto homepage"
+msgstr "Aller à la page d'accueil"
+
+#: single.php:10
+msgid "Home"
+msgstr "Accueil"
+
+#. Theme Name of the plugin/theme
+msgid "Clear Line"
+msgstr "Clear Line"
+
+#. Theme URI of the plugin/theme
+msgid "http://vatuma.com/wordpress-themes/clear-line"
+msgstr "http://vatuma.com/wordpress-themes/clear-line"
+
+#. Description of the plugin/theme
+msgid "Clear Line theme is the clear and very lightweight theme. Fixed or flexible width, 8 sidebar layouts, columnar posts displaying, 11 widget areas, advanced options page with option inheritance and tons of options, helpful 404 error page, SEO-optimized markup. It natively supports SEO and pagination plugins and WordPress3 features: header images, menus, backgrounds, post thumbnails etc. WordPress 3+ is required. Changelog - http://vatuma.com/wordpress-themes/clear-line/change-log"
+msgstr "Le thème Clear Line est une thème claire et très léger. Largeur fixe et variable, 8 affichage de barre latérale, colonnage des posts, 11 zones de widgets, page d'option avancée avec héritage des options et une tonne d'option, page d'erreur 404, balises optimisées pour le référencement SEO. Il supporte nativement les plugins de référencement (SEO) et de pagination ainsi que les fonctionnalités de Wordpress 3: entête, images, menus, fonds, images miniatures etc... Wordpress 3+ est requis. Changelog - http://vatuma.com/wordpress-themes/clear-line/change-log"
+
+#. Author of the plugin/theme
+msgid "Ivan Milaev"
+msgstr "Ivan Milaev"
+
+#. Author URI of the plugin/theme
+msgid "http://vatuma.com"
+msgstr "http://vatuma.com"
+
+#. Tags of the plugin/theme
+msgid "custom-header, theme-options, fixed-width, flexible-width, threaded-comments, two-columns, white, light"
+msgstr "custom-header, theme-options, fixed-width, flexible-width, threaded-comments, two-columns, white, light"
+

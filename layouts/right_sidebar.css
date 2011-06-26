@@ -1,0 +1,19 @@
+/* right_sidebar.css */
+	div#wrapper{float:left;width:100%}
+	div#content-wrapper
+	{
+		margin-right: <?php echo $options[$shortname . '_blue_sidebar_width_value'] ?><?php echo $options[$shortname . '_blue_sidebar_width_uom'];?>;
+		xmargin-top:18px;
+	}
+	div#blue-sidebar
+	{
+		float:left;
+		width: <?php echo $options[$shortname . '_blue_sidebar_width_value']; ?><?php echo $options[$shortname . '_blue_sidebar_width_uom'];?>;
+		margin-left:-<?php echo $options[$shortname . '_blue_sidebar_width_value']?><?php echo $options[$shortname . '_blue_sidebar_width_uom'];?>;
+		
+	}
+	div#blue-sidebar .margines
+	{
+		<?php if ($options[$shortname . '_column_divider'] == 'yes') echo 'border-left: 1px solid '.$options[$shortname . '_dividers_color'].';'?>
+		padding:0px 15px 15px 15px;
+	}
