@@ -181,21 +181,7 @@ function legacy_comments( $file )
 }
 */
 // [a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?
-function hide_email($email,$text='')
-{
-	$p1=rand(1,strlen($email)-2);
-	$s1=substr($email,0,$p1);
-	$email = substr($email,$p1);
-	
-	$p2 = rand(1,strlen($email)-1);
-	$s2=substr($email,0,$p2);
-	$s3 = substr($email,$p2);
-	
-	$js_email='Base64.decode("' . base64_encode($s1) . '")+\'' . $s2 . '\'+Base64.decode("' . base64_encode($s3) . '")';
-	$js='<script>var m=' . $js_email .';' . 
-		'document.write(\'<a href="ma\'+Base64.decode("'. base64_encode('ilto:') . '")+\'\'+m+\'">\'+' . (($text)?'\''.$text.'\'':'m') . '+\'</a>\');</script>';
-	return $js;
-}
+
 function get_tags_for_post($post_id, $type='post_tag') 
 {
 	$tags = get_the_terms($post_id,$type);
@@ -320,8 +306,8 @@ function draw_image_thumb($args)
 
 
 function admin_register_head() {
-	$siteurl = get_bloginfo('template_url');
-	$url = get_bloginfo('template_url') . '/options/style.css';
+	$siteurl = get_template_directory_uri();
+	$url = get_template_directory_uri() . '/options/style.css';
 	echo "<link rel='stylesheet' type='text/css' href='$url' />\n";
 }
 function addThemeStyles()
@@ -330,7 +316,7 @@ function addThemeStyles()
 	$time = ClearLineOptions::getOptions('last_update_time');
 	
 	if (strpos($_SERVER["SERVER_NAME"], 'wp-themes.com') !== false)
-		wp_enqueue_style('vtm-theme-css', get_bloginfo('stylesheet_directory').'/sample.css');
+		wp_enqueue_style('vtm-theme-css', get_stylesheet_directory_uri().'/sample.css');
 	else
 		wp_enqueue_style('vtm-theme-css', home_url('').'/index.php?vtm-theme=css&lud='.$time.'&layout='.ClearLineOptions::getLayoutCSS());
 */
@@ -393,7 +379,7 @@ function get_short_url()
 		}
 		if (!$url) 
 		{
-			return sprintf('%s?p=%s', get_bloginfo('url'),$postid);
+			return sprintf('%s?p=%s', home_url(),$postid);
 		}
 		add_post_meta( $postid, '_short_url', $url);
 		return $url;
@@ -514,7 +500,7 @@ function echo_share_this($show = null)
 		);
 		
 	}
-	$template_url =  get_bloginfo('template_url');
+	$template_url =  get_template_directory_uri();
 ?>
 <?php if (isset ($show['delicious']) && $show['delicious']):?>
 	<div style="float:left;padding:1px">
@@ -651,7 +637,7 @@ function echo_column_post()
 				<a href="<?php the_permalink() ?>" rel="bookmark">
 					<?php if (has_post_thumbnail())
 						the_post_thumbnail('column-thumbnail'); 
-						else echo '<img src="'.get_bloginfo('stylesheet_directory').'/img/thumbnail.jpg" '
+						else echo '<img src="'.get_stylesheet_directory_uri().'/img/thumbnail.jpg" '
 						.' height="'.$options[$shortname . '_column_thumbnail_size_y'].'" class="wp-post-image"/>';
 					?>
 				</a>
@@ -782,8 +768,8 @@ function vtm_remove_version()
 
 if (is_admin())
 {
-	wp_enqueue_script('vtm-colorpicker', get_bloginfo('stylesheet_directory').'/options/js/colorpicker.js');
-	wp_enqueue_style ('vtm-colorpicker1', get_bloginfo('stylesheet_directory').'/options/js/css/colorpicker.css');
+	wp_enqueue_script('vtm-colorpicker', get_stylesheet_directory_uri().'/options/js/colorpicker.js');
+	wp_enqueue_style ('vtm-colorpicker1', get_stylesheet_directory_uri().'/options/js/css/colorpicker.css');
 	//wp_enqueue_script('colorpicker');
 }
 if (!is_admin()) 

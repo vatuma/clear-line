@@ -1,5 +1,5 @@
 <?php
-//define ('SHOW_DEVELOPER_TOOLS',1);
+define ('SHOW_DEVELOPER_TOOLS',0);
 class ClearLineOptions
 {
 	function & cfg($name)
@@ -665,6 +665,8 @@ class ClearLineOptions
 		);
 		$options = & self::getOptions();
 		$shortname = self::cfg('shortname');
+		if (is_home() || is_front_page() ) return self::getInherited($shortname.'_index_sidebars','');
+		if (is_single()) 	return self::getInherited($shortname.'_single_post_sidebars','');
 		if (is_page()) 
 		{
 			$id = (int) $wp_query->get_queried_object_id();
@@ -672,9 +674,7 @@ class ClearLineOptions
 			if (isset($page_templates[$template])) return $page_templates[$template];
 			//else
 			return self::getInherited($shortname.'_single_page_sidebars','');
-		}		
-		if (is_home() || is_front_page() ) return self::getInherited($shortname.'_index_sidebars','');
-		if (is_single()) 	return self::getInherited($shortname.'_single_post_sidebars','');
+		}
 		if (is_category()) 	return self::getInherited($shortname.'_category_sidebars','');
 		if (is_tag()) 		return self::getInherited($shortname.'_tag_sidebars','');
 		if (is_search()) 	return self::getInherited($shortname.'_search_sidebars','');

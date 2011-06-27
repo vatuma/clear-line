@@ -48,7 +48,7 @@ function vtm_content()
 		<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 		<?php endif; ?>
 
-
+		<div class="clear"></div>
 		<?php if(function_exists('wp_paginate')) 
 		{
 			wp_paginate();

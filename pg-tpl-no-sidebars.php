@@ -8,7 +8,7 @@ function vtm_content()
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 	<div class="post">
-		<?php if (!is_home() && ! is_front_page()):?>
+		<?php if (!is_home()):?>
 			 <h1 id="post-<?php the_ID(); ?>"><?php the_title(); ?></h1>
 		<?php endif;?>	
 		

@@ -18,7 +18,7 @@ $value_sets = array (
 	'NUMBER' => array(
 		'values'=>'',
 		'input_type' => 'text',
-		'validate' => 'integer'
+		'validate' => 'float'
 	),	
 	'TEXT' => array(
 		'values'=>'',

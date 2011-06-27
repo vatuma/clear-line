@@ -7,7 +7,7 @@ if (have_posts()) : the_post(); update_post_caches($posts);
 	if ($options[$shortname.'_breadcrumbs_show']=='yes'):?>
 
 		<div id="postpath">
-			<a title="<?php _e('Goto homepage'); ?>" href="<?php echo home_url('') ?>/"><?php _e('Home'); ?></a>
+			<a title="<?php _e('Goto homepage', THEME_DOMAIN); ?>" href="<?php echo home_url('') ?>/"><?php _e('Home'); ?></a>
 			 &raquo; <?php echo(get_post_path(get_the_ID(), ' &raquo; ')); ?>
 			&raquo; <?php the_title(); ?>
 		</div>
@@ -26,6 +26,7 @@ if (have_posts()) : the_post(); update_post_caches($posts);
 			<?php 
 				the_content();
 ?>
+			<div class="clear"></div>
 			<div class="postpages">
 				<?php 
 				if (function_exists('multipagebar'))

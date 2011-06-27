@@ -70,7 +70,7 @@ function vtm_content()
 	else 
 		display_regular_posts();
  ?>
-
+	<div class="clear"></div>
 	<?php if(function_exists('wp_paginate')) 
 		{
 			wp_paginate();
