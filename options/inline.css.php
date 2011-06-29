@@ -229,9 +229,9 @@ menu-item menu-item-type-post_type current-menu-item page_item page-item-155 cur
 #access .current-menu-item,
 #access .current_page,
 #access .current_page_item,
+#access .current_page_item a,
 #access .current-menu-ancestor,
 #access .current_page_ancestor
-
 {
 	color: <?php echo $options[$shortname . '_top_menu_current_item_color_text'] ?>;
 	background-color: <?php echo $options[$shortname . '_top_menu_current_item_color_background'] ?>;
