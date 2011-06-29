@@ -643,6 +643,10 @@ class ClearLineOptions
 				if (intval($new_value)>0) return intval($new_value);
 				return $std;
 				break;
+			case 'float':
+				$new_value = str_replace(',' , '.', $new_value);
+				if (floatval($new_value)>0) return floatval($new_value);
+				return $std;
 			case 'string':
 				return stripslashes((string)$new_value);
 				break;
