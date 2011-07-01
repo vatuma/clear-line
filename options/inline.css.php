@@ -746,6 +746,7 @@ select
 	border:none;
 	padding:0px;
 	vertical-align:bottom;
+	height:auto;
 	max-width:100%;
 }
 a.wp-caption {
