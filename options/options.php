@@ -316,7 +316,8 @@ class ClearLineOptions
 				$selected = ((!is_null($option))?$option:$std);
 				foreach ($valueset['values'] as $value => $img_file_name)
 				{
-					echo '<div class="alignleft' . (($selected==$value)?' img-selected':'') . '" value="' . $value.'">';
+					echo '<div class="alignleft' . (($selected==$value)?' img-selected':'') . 
+						'" value="' . $value . '" data-value="' . $value.'">';
 						echo '<img src="' . $template_url . '/options/img/' . $img_file_name . '"'
 						. ' title="' . (($valueset['alt'][$value])?$valueset['alt'][$value]:$img_file_name) . '"'
 						. '>';
@@ -610,10 +611,15 @@ class ClearLineOptions
 			$("div.image-select > div[class!=clear]").click(function(){
 				
 				var id=$(this).parent().parent().parent().attr('id');
+				//alert ('id = '+ id);
 				$('#'+id+' div.img-selected').removeClass('img-selected');
 				id = id.substr(4);
+				//alert ('id.substr(4) = '+ id);
 				$(this).addClass('img-selected');
-				$("#"+id).val($(this).attr('value'));
+				if ($(this).attr('value')) 				// WP velsion 3.1 and less compatibility
+					$("#"+id).val($(this).attr('value'));
+				else
+					$("#"+id).val($(this).data('value')); // WP version 3.2+
 			});
 			
 			$("div.image-select > div[class!=clear]").mouseenter(function(){
